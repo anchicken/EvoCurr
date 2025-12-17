@@ -21,7 +21,7 @@ Here are step-by-step instructions to run the training-free GRPO process for age
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone <https://github.com/anchicken/EvoCurr.git>
 
 # Install required packages
 pip install -r requirements.txt
