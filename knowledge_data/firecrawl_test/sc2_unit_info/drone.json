@@ -1,0 +1,55 @@
+{
+  "Type": "Ground Unit",
+  "Description": "The Drone is the basic worker unit for Zerg. It can harvest Minerals and Vespene Gas as well as build any Zerg structure at the cost of its life. Drones differ from Probes and SCVs in that they can only slowly regenerate health as opposed to the fast recharging shields of the Probe or the repairable 45 hit points of the SCV.The Drone is the only Zerg ground unit other than the Broodling that does not receive a speed increase by walking on Creep.",
+  "Built From": "Not Found",
+  "Requirements": "Not Found",
+  "Cost": {
+    "mineral": 50,
+    "vespene": 0,
+    "game_time": 12,
+    "supply": 1
+  },
+  "Hotkey": "D",
+  "Attack": {
+    "Targets": "Ground",
+    "Damage": "5",
+    "DPS": "4.67",
+    "Cooldown": "1.07",
+    "Bonus": "Not Found",
+    "Bonus DPS": "Not Found",
+    "Range": "0.2"
+  },
+  "Unit stats": {
+    "Defense": "40 0 (+1)",
+    "Attributes": "Biological, Light",
+    "Sight": "8",
+    "Speed": "3.94",
+    "Cargo size": "1"
+  },
+  "Strong against": "Not Found.",
+  "Weak against": "Not Found.",
+  "Ability": [
+    {
+      "Name": "Gather",
+      "Hotkey": "G",
+      "Description": "Order workers or MULEs to gather resources from selected mineral field or vespene geyser."
+    },
+    {
+      "Name": "Build",
+      "Hotkey": "B",
+      "Description": "Order worker to build/warp in/morph into a basic structure. *Cost and time vary depending on building."
+    },
+    {
+      "Name": "Advanced Build",
+      "Hotkey": "V",
+      "Description": "Order worker to build/warp in/morph into an advanced structure. *Cost and time vary depending on building."
+    }
+  ],
+  "Upgrade": "Not Upgrade Found",
+  "Competitive Usage": {
+    "General": "In all match-ups, Drones can be morphed into buildings and then canceled allowing a player to exceed the supply cap as a Drone morphing in to a building no longer counts as a unit for the purposes of supply.There are a few uses for this, the most notable example of which is the Extractor Trick. A second use for this is morphing a large number of Spine Crawlers when a Zerg player has reached the 200 supply limit. This will allow the creation of additional combat units with the free supply, before cancelling the buildings to exceed the 200 supply limit. This can also be done with Spore Crawlers as a cheaper alternative, although you have less time to cancel the buildings, and Spore Crawlers are generally less useful in large numbers if you fail to cancel them.",
+    "Vs. Protoss": "Drones can be used to repeatedly delay the often crucial second gas of Protoss by canceling the Extractor and rebuilding it. Additionally, once the standard Gateway/Cybernetics Core/Zealot wall-in has been established, a Drone can mineral walk through the Zealot to scout. Drones are also commonly used to deny any attempts of a Protoss to early expand.",
+    "Vs. Terran": "Drones can be the main defence against early aggression or Bunker pressure. If an Overlord or Drone scout discovers a Bunker being built, multiple Drones can be pulled from their mining tasks to attack the SCV or any incoming Marines.",
+    "Vs. Zerg": "Drones can be used to build Spine Crawlers as defense when attempting an aggressive cheese against Zerg. With mineral walking and proper micro, Drones can fend off early Zergling rushes with minimal losses."
+  }
+}

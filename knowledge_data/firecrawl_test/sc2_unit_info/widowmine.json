@@ -1,0 +1,76 @@
+{
+    "Type": "Ground Unit",
+    "Description": "A Light Mechanical Mine produced from the Factory with a Reactor. Has no auto attack and must be Burrowed into the ground to use its \"Activate Mine\" ability to deal Splash damage to ground or air units. Deals fixed Spell damage (ignores both sides's Attack & Armor upgrades) to both the primary target and splash, then taking 29 seconds to load the next attack. Having a slight attack delay before casting \"Activate Mine\" makes this Unit vulnerable even to units like Mutalisks and Adepts (with a Detector) even if they have shorter range than the Mine's casting distance.Widow Mines are not affected by the splash damage of friendly Widow Mines (be it the Widow Mine's own attack or another) but other friendly units are; the enemy can use fast units to drag the Mine attacks towards the Terran's army. Medivacs picking up units or the fast movement of Stimpacked units is enough to dodge the worst of the spell.Commonly used as an anti-Melee unit against Zealots and Zerglings that Marines on their own may struggle with, until the opposing army has range 6+ units like Stalkers and Hydralisks with Detection to clean up, and then functions as rear guard unit against air to for Liberators or Siege Tanks, alongside Vikings or Missile Turrets. The Widow Mine's effectiveness at different stages of the game takes some experimentation and experience to understand properly.",
+    "Built From": "Factory",
+    "Requirements": "Not Found",
+    "Cost": {
+        "mineral": 75,
+        "vespene": 25,
+        "game_time": 21,
+        "supply": 2
+    },
+    "Hotkey": "D",
+    "Attack": {
+        "Targets": "Ground / Air",
+        "Damage": "125 (+40 Splash)",
+        "DPS": "Not Found",
+        "Cooldown": "Not Found",
+        "Bonus": "+35 (+25 Splash) vs Shields",
+        "Bonus DPS": "Not Found",
+        "Range": "5"
+    },
+    "Unit stats": {
+        "Defense": "90  0 (+1)",
+        "Attributes": "Mechanical, Light",
+        "Sight": "7",
+        "Speed": "3.94",
+        "Cargo size": "2"
+    },
+    "Strong against": [
+        "Mutalisk",
+        "Zerglings",
+        "Zealot",
+        "Baneling",
+        "Adept"
+    ],
+    "Weak against": [
+        "Stalker",
+        "Marauder",
+        "Ravager"
+    ],
+    "Ability": [
+        {
+            "Name": "Activate Mine",
+            "Hotkey": "E",
+            "Description": "Burrows the Widow Mine and readies the weapon. Cannot move while activated."
+        },
+        {
+            "Name": "Deactivate Mine",
+            "Hotkey": "D",
+            "Description": "Unburrows the Widow Mine and deactivates its weapon, allowing it to move."
+        },
+        {
+            "Name": "Sentinel Missiles",
+            "Hotkey": "Not Found",
+            "Description": "Attacks by launching missiles at enemy ground and air units that get too close. Missiles deal 125 (+35 vs. shields) damage to their primary target, and 40 (+25 vs. shields) splash damage to units nearby."
+        }
+    ],
+    "Upgrade": {
+        "Name": "Drilling Claws",
+        "Details": [
+            "75",
+            "75",
+            "79",
+            "Hotkey: C",
+            "Researched from: Tech Lab",
+            "Requires: Armory"
+        ],
+        "Description": "Allows Widow Mines to burrow, unborrow and activate two times as fast. Additionally this grants invisibility while reloading."
+    },
+    "Competitive Usage": {
+        "General": "Widow Mines are slightly faster than Marine+Marauder forces (unless Stimmed) and can maneuver around defending units and hit units with shorter range. However, Widow Mines become less effective when the opponent has range 6 units. Drilling Claws decreases the time spent in the burrowing phase and makes it easier to employ Widow Mines as a mobile and flexible attacking force.In defensive formations, Widow Mines can be used to guard chokes and protect vulnerable points.Can be used in combination with Missile Turrets or a Cyclone to protect from flying units where Marines are not sufficient.",
+        "Vs. Protoss": "A Widow Mine does a total of 160 damage to a Protoss unit when counting the shield damage and can one shot all Gateway units and the Oracle.Used to zone out opposing Mineral fields from workers with Medivac (1) and Marines (6) as a standard opening being used since early Heart of the Swarm.Sometimes the Factory is proxied and landed in the Protoss main in an attempt to snipe the first Oracle or Observer and have free reign to produce a few Mines delay mining considerably.In LotV Terran prefer dropping 2 or 3 mines into Protoss main and natural to keep their Stalkers or Phoenices at home. If they don't, Protoss might lose a considerable amount of probes.A strong counter to attempts to mass Adepts, and or Phoenix. This allows for a good timing to push before Stalkers and Marauders are fielded in large numbers.",
+        "Vs. Terran": "Widow mines are a somewhat seldom seen unit in TvT. Since Raven openings are so common, and all Terran combat units are ranged, they will find little success against traditional Marine/Siege Tank armies. Due to Tanks being such an important factor in ground engagements, and factory production being so paramount as a result, Mines are made rarely in the matchup.Although not typically used in the main army composition, there are a few ways that Widow Mines still do see some use.Hellions are a more common choice for the volatile early game, but Widow Mines can be an option to punish Hellion/Reaper pokes and posture for the drop.They can one-shot Hellions or Cyclones, deal considerably high AoE damage to Reapers or Marines and serves as a scout which will not respond to F2 A-moving commands. Detection is scant in the very beginning of the game, so there is a window where a single Widow Mine can kill something valuable from your careless opponent.Another scenario which may see Widow Mine usage is for a Mech player, as a Hellion/Hellbat alternative from Reactored Factories. Though weak in frontal engagements, they can help secure a defensive position, especially vs a Bio player sending heavy harass or another Mech player sending out sizable groups of Hellions. Placing Mines throughout the map can offer map vision as well as harry reinforcement routes, which may go unnoticed by an inattentive player. If a Bio player opts for air control and loses/cuts Ravens, the Mine player may be able to get good connections on clumped Vikings, though this should not be counted on, especially as Scans are an option to get vision of opposing armies.",
+        "Vs. Zerg": "Commonly used for Marines (to 6), Widow Mine (1) drop being much faster than the previous standard, and also common, follow-up of Hellion Banshee (1) with Cloaking Field to punish a fast third Hatchery before Roach Warren or Baneling Nest."
+    }
+}

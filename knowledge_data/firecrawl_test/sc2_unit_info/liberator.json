@@ -1,0 +1,65 @@
+{
+    "Type": "Air Unit",
+    "Description": "The Liberator is a fast and versatile Terran air unit introduced in Legacy of the Void. It can be built from the Starport and double produced from a Reactor. In Fighter Mode, it attacks air units with splash damage; in Defender Mode, it attacks ground units in a targeted zone.",
+    "Built From": "Starport",
+    "Requirements": "Not found",
+    "Cost": {
+      "mineral": 150,
+      "vespene": 125,
+      "game_time": 43.0,
+      "supply": 3
+    },
+    "Hotkey": "N",
+    "Attack": [
+      {
+        "Name": "Lexington Rockets",
+        "Targets": "Air",
+        "Damage": "5 (+1) (x2)",
+        "DPS": "7.75 (+1.55)",
+        "Cooldown": "1.29",
+        "Bonus": "Not found",
+        "Bonus DPS": "Not found",
+        "Range": "5"
+      },
+      {
+        "Name": "Concord Cannon",
+        "Targets": "Ground",
+        "Damage": "75 (+5)",
+        "DPS": "65.8 (+4.39)",
+        "Cooldown": "1.14",
+        "Bonus": "Not found",
+        "Bonus DPS": "Not found",
+        "Range": "10 (+2)"
+      }
+    ],
+    "Unit stats": {
+      "Defense": "180 0 (+1)",
+      "Attributes": "Armored, Mechanical",
+      "Sight": "10",
+      "Speed": "4.72"
+    },
+    "Strong against": ["Ultralisk", "Phoenix", "Siege Tank"],
+    "Weak against": ["Corruptor", "Void Ray", "Viking (Unless clumped)"],
+    "Ability": [
+      {
+        "Name": "Defender Mode",
+        "Hotkey": "E",
+        "Description": "Deploys into Defender Mode. In this mode, Liberators inflict single target damage to ground units. Liberators in this mode cannot move."
+      },
+      {
+        "Name": "Fighter Mode",
+        "Hotkey": "D",
+        "Description": "Reverts to Fighter Mode. In this mode, Liberators can move, but they can only target air units."
+      }
+    ],
+    "Upgrade": {
+      "Name": "Advanced Ballistics",
+      "Details": ["150", "150", "79", "Hotkey: N", "Researched from: Fusion Core"],
+      "Description": "Increases the range of Liberators in Defender Mode by 2."
+    },
+    "Competitive Usage": {
+      "Vs. Protoss": "Can outrange Colossus, but Disruptor is the exact opposite. Nevertheless Liberators are needed to force your opponent transit into Carriers or Tempests. Disruptors don't kill aircrafts, after all. Needs +2 Weapon to two-shot Stalkers (one-shot with EMP).",
+      "Vs. Terran": "Vikings on paper have every advantage over the Liberator, except speed. Do not blindly produce Liberators against Terran. Often used as a reinforcement for Siege Tank (1-2) pushes; keep enemy Viking numbers in mind.",
+      "Vs. Zerg": "Killed by three Ravagers using Corrosive Bile. With Marines and Marauders the counter-composition usually involves Banelings, so Siege Tanks are normally preferable for the early to mid-game. Production of Liberators is usually to reinforce the other side of the map when the enemy is using more expensive units like Hydralisks or Ultralisks where Liberators can get their full value. This is also entirely a player preference."
+    }
+  }

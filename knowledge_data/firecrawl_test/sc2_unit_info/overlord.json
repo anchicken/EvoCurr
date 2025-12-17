@@ -1,0 +1,67 @@
+{
+    "Type": "Air Unit",
+    "Description": "The Overlord is the Zerg's supply generator, equivalent to the Terran's Supply Depot and the Protoss Pylon. The Overlord provides the Zerg player with 8 supply. More must be built to create additional units.In StarCraft II, Overlords are not Detectors like their Brood War counterparts. Instead, the Zerg morph Overlords into Overseers for mobile detection. Overseers require a Lair.Overlords may be placed around opponents' main base and natural expansion, offering information about when they have started their expansion and their army composition. Overlords and Overseers are also useful spotters for placing Nydus Worms.Many Zerg players spread out their Overlords early on, so when they have reached Lair tech they can start using the Generate Creep ability and thus expand the Creep.Good Zerg players also know when to use Overlords for setting up a chain of vision. When the threat of air attack is low, it is also advisable to place Overlords around the map in general or to allow them to patrol, spotting early enemy raiders, aerial drops or pushes. Use high ground to hide the Overlords from ground units. It is vital that a player research Pneumatized Carapace for scouting enemy bases and in order to facilitate a quick escape.Overlords are also the Zerg Transport unit. The Overlord can mutate Ventral Sacs, which in Legacy of the Void is now an upgrade performed by individual Overlords, not an upgrade for all Overlords as in WoL & HotS. Mutating Ventral Sacs changes the Overlord's appearance, denoting to the enemy that it may carry units. This can be used tactically, e.g. feigning an imminent drop using empty Overlords. Ventral Sacs require a Lair. Overlords with Ventral Sacs can still morph to Overseers, but they lose their ability to load units, and the upgrade can only be performed while the Overlord is empty. With Ventral Sacs, each Overlord has a cargo capacity of 8.",
+    "Built From": "Not Found",
+    "Requirements": "Not Found",
+    "Cost": {
+        "mineral": 100,
+        "vespene": 0,
+        "game_time": 18,
+        "supply": "Not Found"
+    },
+    "Hotkey": "V",
+    "Attack": "Not Attack Found",
+    "Unit stats": {
+        "Defense": "200  0 (+1)",
+        "Attributes": "Armored, Biological",
+        "Sight": "11",
+        "Speed": "0.902 (+1.728)",
+        "Cargo size": "Not Found"
+    },
+    "Strong against": "Not Found",
+    "Weak against": "Not Found",
+    "Ability": [
+        {
+            "Name": "Morph to Overseer",
+            "Hotkey": "V",
+            "Description": "Morphs the selected Overlord into an Overseer. Requires Lair."
+        },
+        {
+            "Name": "Generate Creep",
+            "Hotkey": "G",
+            "Description": "Makes the Overlord start to generate creep. Creep will only be generated when the Overlord isn't moving.Generate Creep is a useful ability for the Overlord and can allow the Zerg to reinforce units to key parts of the map. Overlords may be used to generate creep on expansions to prevent Terran or Protoss players from expanding."
+        },
+        {
+            "Name": "Stop Generate Creep",
+            "Hotkey": "C",
+            "Description": "Stops generating creep."
+        },
+        {
+            "Name": "Mutate Ventral Sacs",
+            "Hotkey": "T",
+            "Description": "Enables the Overlord to transport units. Requires a Lair."
+        },
+        {
+            "Name": "Load",
+            "Hotkey": "L",
+            "Description": "The Overlord has a cargo space of 8. Overlords can use the Load ability only after mutating Ventral Sacs."
+        }
+    ],
+    "Upgrade": {
+        "Name": "Pneumatized Carapace",
+        "Details": [
+            "100",
+            "100",
+            "43",
+            "Hotkey: P",
+            "Researched from: Hatchery"
+        ],
+        "Description": "Increases the movement speed of Overlords to 3.00 and Overseers to 4.72."
+    },
+    "Competitive Usage": {
+        "General": "Not Found.",
+        "Vs. Protoss": "Overlords can be sent to scout the opponent's base, but once the Cybernetics Core is built, the Overlords should be moved to a safe location to prevent it from getting sniped by a Stalker or Sentry. Players should also watch for a Stargate. Void Rays and Phoenixes are very effective against Overlords.",
+        "Vs. Terran": "When sending your Overlord to a Terran opponent's base, you have to be very careful not to let it get sniped by Marines. On most maps, the Terran player will already have Marines, so it may be better to scout with a faster Drone at 13 supply first.Since Terran players can scan your base to scout your tech, the Overlord's Generate Creep ability can be used in a discreet location in your base so that an important building like a Spire can be built underneath it, keeping the building hidden from the enemy scan. Just be careful, as the building underneath it will start to die from lack of creep if the Overlord moves away or is killed.",
+        "Vs. Zerg": "Overlords should be sent to the bases of the opposing Zerg player, but once the Spawning Pool completes, they should be moved to a safe location since the Queen can drive them away. Conventional ZvZ play does not use units that attack air, so Overlords can generally be spread throughout the map without fear of losing them, granting enormous map vision. However, if the enemy makes Hydralisks or Mutalisks, this can be a liability if all the Overlords are easily killed."
+    }
+}

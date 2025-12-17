@@ -1,0 +1,59 @@
+{
+    "Type": "Large Air Unit",
+    "Description": "The Mothership is the most powerful unit in the Protoss arsenal: Once a Fleet Beacon has been built, it may be warped in at a Nexus. Because of its extensive capabilities, the Mothership has a unique restriction: only one can be deployed by each player at a time.Although it does have an attack in the Purifier Beam, the primary use of the Mothership is its powerful support abilities. The Mothership has three spells, Cloaking Field, Mass Recall and Time Warp. The Mass Recall spell teleports player units in the target area to the Mothership after 4 seconds, just like the Nexus' Strategic Recall spell, but without any cooldown. The Time Warp spell slows down the units and structures in a targeted area. Last but not least, the ability Cloaking Field cloaks all nearby friendly units and buildings for 20 seconds. While these abilities are powerful and potentially game-changing, the Mothership is very expensive, quite slow, takes a long time to warp in, and is only available at the end of a long tech path. Thus, the Mothership is generally only seen in late game compositions, although specialized builds can produce it earlier.",
+    "Built From": "Nexus",
+    "Requirements": "Fleet Beacon, No Mothership",
+    "Cost": {
+        "mineral": 400,
+        "vespene": 400,
+        "game_time": 89,
+        "supply": 8
+    },
+    "Hotkey": "M",
+    "Attack": {
+        "Targets": "Ground / Air",
+        "Damage": "6 (+1) x4 x4",
+        "DPS": "85.06 (+14.18)",
+        "Cooldown": "1.58",
+        "Bonus": "Not Found",
+        "Bonus DPS": "Not Found",
+        "Range": "7"
+    },
+    "Unit stats": {
+        "Defense": " 350  350  2 (+1)",
+        "Attributes": "Armored, Massive, Psionic, Mechanical, Heroic",
+        "Sight": "14",
+        "Speed": "2.83",
+        "Cargo size": "Not Found"
+    },
+    "Strong against": "Not Found",
+    "Weak against": [
+        "Viking",
+        "Corruptor",
+        "VoidRay"
+    ],
+    "Ability": [
+        {
+            "Name": "Mass Recall",
+            "Hotkey": "R",
+            "Description": "Recalls all player units in the target area to the Mothership."
+        },
+        {
+            "Name": "Time Warp",
+            "Hotkey": "T",
+            "Description": "After a 0.71 second delay, warps spacetime within the target area for 7 seconds. Enemy units and structures within the field will have attack and movement speeds reduced by 40%."
+        },
+        {
+            "Name": "Cloaking Field",
+            "Hotkey": "C",
+            "Description": "The Mothership cloaks all nearby units and buildings for 20 seconds, preventing enemy units from seeing and attacking nearby units and structures. A cloaked unit will only be revealed by detectors or effects."
+        }
+    ],
+    "Upgrade": "Not Upgrade Found",
+    "Competitive Usage": {
+        "General": "There used to be very few builds tailored to incorporate the Mothership, and was often used as a cheese or an embarrassment tactic, such as the Mothership Rush All In as first played by HuK in 2010, which heavily relied on surprise to be effective.However, as players have more likelihood of getting expansions and a large income, the Mothership has become an integral part of many Protoss late game strategies.Some players in WoL also experimented with using the Mothership away from their army, utilizing the Mass Recall spell to their advantage. The Mass Recall spell can evacuate trapped offensive units to safety, or allow an otherwise immobile army to defend or attack more than one key location on the map. The ability was changed, however, to require that the Mothership itself recall to any Nexus on the map. It does, however, brings any nearby units with it.",
+        "Vs. Protoss": "A less common way to employ the mothership is a build that utilizes the cloaking ability of the mothership. The Mothership usually follows a Phoenix harass, as at that point the Stargate is built and there are required Phoenixes out. After that, the Protoss using this strategy gets a Fleet Beacon and a Mothership, also getting 1 or more Observers to accompany the army. When the confrontation with the other player occurs, your Observers spot his, and since they are likely the only air unit in the army, the Phoenix will kill the opponent's Observer. Then it is simply a matter of using the cloaking on the Mothership to keep your army alive, and keeping the Mothership alive as best you can. It should be noted that this build is very difficult to effectively pull off, since the Mothership takes so long to tech to and build, and it is almost always more practical to simply produce more units and try to get a stronger army or economy.",
+        "Vs. Terran": "The Mothership's cloaking ability can be a powerful asset against Terran; Terran players are heavily dependent on Scans for detection, and Ravens can be usually be picked off relatively easily in the later-stages game. This forces Terran players to use Orbital Command Energy, which limits MULE production and can actually run out in longer or multiple engagements. However, as Vikings and EMPs are usually available for Terran as well as large numbers of Orbital Commands, Mothership play is usually ineffective against Terran.Fortunately the unit does have a nice little niche in a certain scenario of Tempest vs BC battles. Nexus Recall is tied to a global cooldown meaning it can't be used again until 85 seconds. A Mothership serves as a backup recall for when the player needs to recall in a pinch. This can be seen in this game of Creator vs TY",
+        "Vs. Zerg": "With the Motherships heroic tag it is impossible for it to be neuraled, the only real threat was getting abducted by a Viper followed up by a Corruptor snipe, but Patch 5.0.14 removed the ability of the Viper to abduct Motherships.Protoss players should always get this unit for lategame in this matchup as cloaking in of itself is a very good ability. Its Mass Recall spell can be used quite creatively such as bringing an army into the main base of an opponent or to quickly summon reinforcements into a fight instead of needing to wait for them to travel across the map. Time Warp is an effective area denial spell and is effective when paired up with splash damage such as storm. A player can use it to slow down a flock of Corruptors dive bombing Carriers increasing the potential damage of storms on them, or to close off an area that a Zerg may use to flank."
+    }
+}

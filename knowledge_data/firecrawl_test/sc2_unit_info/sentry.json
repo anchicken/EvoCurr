@@ -1,0 +1,46 @@
+{
+    "Type": "Ground Unit",
+    "Description": "The Sentry is an unusual Protoss spell-casting unit produced from the Gateway after the Cybernetics Core has been built. The Sentry's spells are very powerful: Force Field, Guardian Shield, and Hallucination. These spells — Force Field in particular - are considered essential capabilities in almost all Protoss strategies.In addition to their spells, Sentries have a primary attack that is capable of hitting both air and ground targets, although their damage output is rather weak; consequently, as with most spell-casters, it is usually considered a support unit and not a primary damage-dealer. The Sentry's spells are extremely useful throughout the game, despite its early position on the tech tree, making this unit an excellent complement to almost any army composition.",
+    "Built From": "Gateway",
+    "Requirements": "Cybernetics Core",
+    "Cost": {
+        "mineral": 50,
+        "vespene": 100,
+        "game_time": 23,
+        "supply": 2
+    },
+    "Hotkey": "E",
+    "Attack": {
+        "Targets": "Ground / Air",
+        "Damage": "6 (+1)",
+        "DPS": "8.4 (+1.4)",
+        "Cooldown": "0.71",
+        "Bonus": "+4 vs Shields",
+        "Bonus DPS": "+5.6 vs Shields",
+        "Range": "5"
+    },
+    "Unit stats": {
+        "Defense": "40  40  1 (+1)",
+        "Attributes": "Mechanical, Psionic",
+        "Sight": "10",
+        "Speed": "3.5",
+        "Cargo size": "2"
+    },
+    "Strong against": [
+        "Zealot",
+        "Zergling"
+    ],
+    "Weak against": [
+        "Stalker",
+        "Reaper",
+        "Hydralisk"
+    ],
+    "Ability": "Not Ability Found",
+    "Upgrade": "Not Upgrade Found",
+    "Competitive Usage": {
+        "General": "The Sentry's Hallucination ability is very frequently used for scouting. The most common tactic is to create Hallucinated Phoenixes, sending them flying across the map to look at the enemy's base or locate the enemy's army. More uncommonly, Hallucinations are intended to create a distraction, fooling an opponent. Hallucinations associated with certain tech trees, such as High Templar or Immortals can also be presented to the enemy to try instigate inappropriate reactionary counterplay.Sentries also feature in several timing pushes, where the Force Field ability is leveraged. For example, warping in a Sentry alongside Immortals in a Warp Prism, while dropping them into the opponent's main base, the Force Field can keep the enemy army from defending by blocking the ramp. The high damage output of the Immortals can destroy key tech structures or kill several workers while the defenders are kept at bay by the Sentry.",
+        "Vs. Protoss": "Sentries are used often in Protoss mirror matches for holding off early rushes by placing a Force Field on the ramp, they also work offensively by pushing key units out of fighting range such as Immortals, and are a vital part of a mid-game army. Guardian Shield is effective in lowering damage from ranged Protoss units such as Stalkers or Adepts. With the energy cost reduction of Hallucination in Patch 4.7.1 Sentry openers have become more powerful, by being able to scout much earlier. This allows players to respond much earlier to their opponent's tech.",
+        "Vs. Terran": "Sentries can make a huge difference in PvT. Force Field can be used to block Terrans moving in to try to target key units such as Colossus. This is vital to ensure that the primary damage dealers of the Protoss army survive. Another important ability is Guardian Shield. Since Guardian Shield reduces the damage of each ranged attack by 2, units that attack quickly such as Marines are heavily affected by the ability. The Sentry can be used to block off the ramp from early rushes. The sentry is also extremely effective if a Protoss player attacks early game; Guardian Shield retains its obvious usefulness, but Force Field is also extremely important when a Terran player has units in bunkers to defend. A common Terran tactic will be to bring several SCVs to repair the bunkers as they are under fire. Force Fields can stop SCVs repairing if Force Field is cast such as to surround the bunkers. This will also trap units that come out of the bunker if it dies.",
+        "Vs. Zerg": "Against Zerg, Sentries are considered useful in both the early and midgame. Force Field is vital in helping to block early Zerg rushes, as one Force Field will help block attempts to breach a sim-city at the Protoss natural. An important use of Force Field in the mid-game is to effectively wall off your army from Zerg attackers. Placing Force Fields to reduce the effective surface area of your army makes the Zerg swarm easier to deal with and destroy. Be mindful of Ravagers as Corrosive Bile can destroy Force Fields.Aside from Force Field usage, Guardian Shield is extremely important in mid-game PvZ if a player opts for a style that utilizes Sentries. Guardian Shield greatly decreases the damage that Mutalisks do against Protoss units, and also helps to mitigate the damage that Roaches and Hydralisks do.Sentries are a centerpiece of certain attacks such as the Immortal Sentry all-in that is also usually supported by Adepts with or without Resonating Glaives. These pushes usually involve about 6 or so Sentries and rely on proper Force Field management to be effective."
+    }
+}

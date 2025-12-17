@@ -1,0 +1,65 @@
+{
+    "Type": "Air Unit",
+    "Description": "The Overseer is a Zerg unit that is morphed from an Overlord. It has some abilities which the Overlord does not have: the ability to Detect invisible units, spawn Changelings and Contaminate. The Overseer is extremely useful for scouting and detecting enemy units/positions. It moves faster than the Overlord and also receives the benefit of the Pneumatized Carapace upgrade. In return, it loses the Overlord's ability to transport units and Generate Creep.It is a generally a good idea to include Overseers in a mid-end game army to detect any stealth units.",
+    "Built From": "Not Found",
+    "Requirements": "Not Found",
+    "Cost": {
+        "mineral": "50 (150)",
+        "vespene": 50,
+        "game_time": "12 (30)",
+        "supply": "Not Found"
+    },
+    "Hotkey": "V",
+    "Attack": "Not Attack Found",
+    "Unit stats": {
+        "Defense": "200  0 (+1)",
+        "Attributes": "Armored, Biological, Detector",
+        "Sight": "11 (+2.75)",
+        "Speed": "2.62 (+2.1)",
+        "Cargo size": "Not Found"
+    },
+    "Strong against": [
+        "DarkTemplar",
+        "Banshee",
+        "Lurker"
+    ],
+    "Weak against": [
+        "Stalker",
+        "Viking",
+        "Mutalisk"
+    ],
+    "Ability": [
+        {
+            "Name": "Oversight",
+            "Hotkey": "W",
+            "Description": "Grants the Overseer 25% wider vision, but removes its ability to move. This ability can be canceled after activation."
+        },
+        {
+            "Name": "Cancel Oversight",
+            "Hotkey": "R",
+            "Description": "Restores the Overseer's ability to move and returns its vision to its normal radius."
+        },
+        {
+            "Name": "Detector",
+            "Hotkey": "Not Found",
+            "Description": "The Overseer is a Detector unit that can see cloaked, burrowed and hallucinated units."
+        }
+    ],
+    "Upgrade": {
+        "Name": "Pneumatized Carapace",
+        "Details": [
+            "100",
+            "100",
+            "43",
+            "Hotkey: P",
+            "Researched from: Hatchery"
+        ],
+        "Description": "Increases the movement speed of Overlords to 3.00 and Overseers to 4.72."
+    },
+    "Competitive Usage": {
+        "General": "Overseers are commonly morphed in all match-ups. They provide invaluable scouting information with their high movement speed, long sight range, and ability to drop Changelings. As the Zerg's only mobile detection, they are necessary to defend against cloaked/burrowed units from all three races. Often, if an opponent is suspected of having the ability to produce cloaked units, an Overseer is morphed preemptively upon morphing a Lair.A common tactic to get a scout into your opponent's base is to move an Overseer to the cliff, and drop a Changeling there. The speed of the Overseer allows it to easily escape, and the Changeling will give you at least some information before it is killed. However, Changelings should be dropped strategically, so the other player will not notice the unit for the split-second that it is your color.",
+        "Vs. Protoss": "Not Found",
+        "Vs. Terran": "Not Found",
+        "Vs. Zerg": "Not Found"
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "Type": "Ground Unit",
+    "Description": "The Lurker is a Zerg unit that may attack only when burrowed and is also able to burrow without the mutation being evolved. A Hydralisk can be morphed to a Lurker when a Lurker Den has been constructed. The Lurker deals damage to all enemy ground units and buildings in a linear attack, similar to a Hellion. Each spine that spikes out of the ground has an individual splash zone with a radius of 0.5. There are 10 spines in the attack that are each offset about 1 full cell from each other from the Lurker to the target unit. There is a 0.125 second delay between each protruding spine, resulting in a full 1.25 seconds to fire an entire line of spines. This makes it possible to dodge the outer spines with reactive micro.",
+    "Built From": "Not Found",
+    "Requirements": "Lurker Den",
+    "Cost": {
+        "mineral": 50,
+        "vespene": 100,
+        "game_time": 18,
+        "supply": 1
+    },
+    "Hotkey": "E",
+    "Attack": {
+        "Targets": "Ground",
+        "Damage": "20 (+2)",
+        "DPS": "14.0 (+1.4)",
+        "Cooldown": "1.43",
+        "Bonus": "+10 (+1) vs Armored",
+        "Bonus DPS": "+7.0 (+0.7) vs Armored",
+        "Range": "8 (+2)"
+    },
+    "Unit stats": {
+        "Defense": " 190  1 (+1)",
+        "Attributes": "Biological, Armored",
+        "Sight": "10",
+        "Speed": "4.13 (+0.413)",
+        "Cargo size": "4"
+    },
+    "Strong against": [
+        "Marine",
+        "Hydralisk",
+        "Zealot"
+    ],
+    "Weak against": [
+        "SiegeTank",
+        "Ultralisk",
+        "Disruptor"
+    ],
+    "Ability": "Not Ability Found.",
+    "Upgrade": [
+        {
+            "Name": "Adaptive Talons",
+            "Details": [
+                "100",
+                "100",
+                "57",
+                "Hotkey: D",
+                "Researched from: Lurker Den"
+            ],
+            "Description": "Reduces the time Lurkers take to burrow from 2 seconds to 1.07 seconds.."
+        },
+        {
+            "Name": "Seismic Spines",
+            "Details": [
+                "150",
+                "150",
+                "57",
+                "Hotkey: S",
+                "Researched from: Lurker Den"
+            ],
+            "Description": "Increases the range of the Lurkers attack from 8 to 10.."
+        }
+    ],
+    "Competitive Usage": {
+        "General": "Lurkers are excellent area control and power multiplier units. They can hold ground and take control over tight corridors. Depending on the enemy's composition, they can greatly improve the cost-efficiency of your army. They can also defend against drops and harassment very efficiently and are most effective against slow units or low-health units.",
+        "Vs. Protoss": "Lurkers are very strong in this match-up: Protoss lack direct counters other than massed immortals. Lurkers can shred a Gateway-based army, and Hydralisk/Roach/Zergling support protects them from other threats such as Immortals and Archons or air units. It is very difficult for a Protoss to engage into a Lurker-based army, moreover, having a Lurker-based army get on top of a Protoss's base is disastrous. Thus, it is important for the Protoss to keep tabs on the Zerg's army's location with scouting units such as the Oracle and the Observer, and important to meet it when it tries to attack. Keep in mind that Lurker-heavy armies aren't very good at engaging directly into enemy armies, because the Lurker must first burrow, giving the Protoss army time to pick off the Lurkers or to retreat.Contrary to first impressions Disruptors are less useful against this unit. A well-spread line of Lurkers will take at least 2 Disruptors per Lurker, and with the long cooldown of 21.4 seconds, using Disruptors to counter Lurkers takes too long and costs many resources. This in turn gives Zerg enough time to respond. Unlike Immortal/Archon/Zealot which can take a straight up fight against Zerg ground armies.",
+        "Vs. Terran": "Pre 4.11 patch, Lurkers were not used in this matchup as they got hardcountered by Ghost's Steady Targeting and required so many upgrades to be viable in the mid-to-late game. After the range upgrade, they are the viable choice to deal with Terran's bio-based army since they cover bigger areas than before and can deflect Ghost's Steady Targeting, but still get countered when the number gets high.Lurkers are strong when Terran opponents don't have enough Ghosts or Siege Tanks to deal with the sudden tech switch. However, Lurkers alone are not cost-efficient due to how immobile they are when being forced to burrow to attack. This can still give opportunities to Terran in having a better map presence. At the later stage of the game, Brood Lords are more efficient to break the siege tank lines and have less counters compared to Lurkers.",
+        "Vs. Zerg": "In Roach vs Roach wars, Lurkers are very potent at holding positions and, when accompanied by another Roach force, can trade extremely efficiently. Players must watch out for enemy Vipers or Ravagers that may snipe the Lurker. Lurkers are also very powerful against a Mutalisk-massing player, since they are usually paired with a lot of Zerglings and Banelings, which the Lurker deals with with ease. This takes pressure off of the rest of the zerg's ground army, allowing it to incorporate squishier Hydralisks to deal with the Mutalisks. Lurkers have some effective use against Ultralisks, thanks to their bonus damage against Armored units. However, if they are not positioned well Lurkers will die faster and will be unable to line up good splash damage against the Ultralisks, as they have a high collision size."
+    }
+}

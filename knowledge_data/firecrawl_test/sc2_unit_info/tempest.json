@@ -1,0 +1,57 @@
+{
+    "Type": "Air Unit",
+    "Description": "The Tempest is a powerful capital ship for the Protoss that can be built from the Stargate once the Fleet Beacon has been completed. Its primary role is as a heavy bombardment unit, using its incredible range to attack air and ground targets from a safe distance. Due to its range of vision being smaller than the Tempest's maximum attack range, it often requires other units to act as spotters in order to use the unit to maximum effect. The Tempest fires very slowly.In the LotV beta, the Tempest was heavily modified, with its movement speed increased and its air attack removed. The Disintegration ability was added at the start of the Legacy of the Void beta, but then removed in the first update to Patch 2.5.5, which also restored the Tempest's air attack.",
+    "Built From": "Stargate",
+    "Requirements": "Fleet Beacon",
+    "Cost": {
+        "mineral": 250,
+        "vespene": 175,
+        "game_time": 43,
+        "supply": 4
+    },
+    "Hotkey": "T",
+    "Attack": {
+        "Targets": "Ground / Air",
+        "Damage": "40 (+4) / 30 (+3)",
+        "DPS": "16.97 (+1.697) / 12.73 (+1.273)",
+        "Cooldown": "2.36 / 2.36",
+        "Bonus": "+40 vs Buildings (Tectonic Destabilizers) / +22 (+2) vs Massive",
+        "Bonus DPS": "+16.97 vs Buildings (Tectonic Destabilizers) / +9.32 (+0.847) vs Massive",
+        "Range": "10 / 13"
+    },
+    "Unit stats": {
+        "Defense": "200  100  2 (+1)",
+        "Attributes": "Armored, Mechanical, Massive",
+        "Sight": "12",
+        "Speed": "3.15",
+        "Cargo size": "Not Found"
+    },
+    "Strong against": [
+        "Liberator",
+        "Broodlord",
+        "Colossus"
+    ],
+    "Weak against": [
+        "Corruptor",
+        "Viking",
+        "VoidRay"
+    ],
+    "Ability": "Not Ability Found",
+    "Upgrade": {
+        "Name": "Tectonic Destabilizers",
+        "Details": [
+            "150",
+            "150",
+            "100",
+            "Hotkey: T",
+            "Researched from: Fleet Beacon"
+        ],
+        "Description": "Improves the Tempest's Resonance Coil to deal +40 damage vs structures."
+    },
+    "Competitive Usage": {
+        "General": "The Tempest is a siege unit that utilizes its extreme range to attack the enemy without receiving damage. One should usually build a minimum number of Tempests to effectively snipe a designated unit in one volley. Picking off large value units one at a time will prevent the opponent from being able to pull them back to save them for later engagements. E.g. 7 Tempests kill a Colossus in one volley of shots. The Tempest synergizes well with the Oracle's Revelation ability, allowing the Tempests to attack the enemy units without needing an Observer to follow them.",
+        "Vs. Protoss": "Tempests have somewhat returned as a viable option after the 4.7.1 patch which reduced their cost. Prior to this, Tempests were rarely seen in Protoss Vs Protoss games as they offered limited benefit compared to other Protoss options and were far too expensive to be efficient. Even currently, their relatively low damage output makes them a sub-par option against most Protoss builds. Carriers can out-DPS Tempests, but the Carriers are also marginally slower and more expensive; it is a question of micro.Void Rays are extremely strong against Tempest, due to their bonus damage against armored units. Tempests can be used with late game army to snipe enemy Colossi and forcing the enemy to retreat or to fight an unfavorable engagement. Against Colossi, an un-upgraded Tempest takes five shots to kill a Colossus, however with +3 air upgrade only four shots are needed.",
+        "Vs. Terran": "Tempests can be best used against an immobile mech army, using the range difference in order to slowly pick away at the Terran force. In this way the Tempests start a clock timer, forcing the Terran to make a choice: either move forward into a position that might not be too favorable and try to engage the Tempests; or back off and lose the position it currently holds. Waiting is punished by slowly getting picked apart by the Tempests. Even a few Tempests can be sufficient to provoke this reaction.Against bio, the Tempests may be useful against supporting units like tanks, but Marines with stim can close the distance rapidly against isolated Tempests and destroy them in relative ease. Disruptors or Colossus can protect the Tempests by discouraging the enemy infantry army from moving in.Other responses to the Tempest from the Terran player might include building a lot of Vikings. This gives more space to the Protoss ground army as it takes away production time from other essential units. A mech player may possibly use Thors more. Thors are capable units with high durability and DPS, but Tempests are generally easier to micro due to lack of collision, applying damage more consistently, and they are also slightly faster so can avoid engagement with the Thors by running away. Tempests are slightly cheaper and easier to produce than Thors (due to not requiring addons per structure). Overall, they are reasonably evenly matched, but player skill is likely to determine the outcome against Thors.",
+        "Vs. Zerg": "To counter Tempests Zerg will usually spawn army of Corruptors to destroy the ships out of the sky. So it is advisable for Protoss to build several Void Rays, as well as have the support of High Templar for storm and Archons to deal massive amounts of splash damage on Corruptor swarms.With the changes of Patch 4.7.1 the Tempest is now a glass cannon with high movement speed and acceleration. This makes them excellent at their intended role of sniping Broodlords as well being able to kite units that don't have a speed advantage such as Hydralisks that are off creep."
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "Type": "Ground Unit",
+    "Description": "The Queen is an essential unit for the Zerg base, capable of being spawned from any Hatchery after a Spawning Pool has been built. The unit provides light defense against both ground and air threats. Additionally, building a Queen allows the player to access the beneficial spells of Spawn Larva, Spawn Creep Tumor and Transfusion. Zerg players typically produce at least one Queen for every Hatchery because Spawn Larva substantially increases larvae production.The Queen's combat AI prioritizes its stronger air attack against anti-ground airborne threats such as the Banshee, Oracle, or Colossus.",
+    "Built From": "Hatchery, Lair, Hive",
+    "Requirements": "Spawning Pool",
+    "Cost": {
+        "mineral": 175,
+        "vespene": 0,
+        "game_time": 36,
+        "supply": 2
+    },
+    "Hotkey": "Q",
+    "Attack": {
+        "Targets": "Ground / Air",
+        "Damage": "4 (+1) (x2) / 9 (+1)",
+        "DPS": "11.2 (+2.8) / 12.6 (+1.4)",
+        "Cooldown": "0.71 / 0.71",
+        "Bonus": "Not Found",
+        "Bonus DPS": "Not Found",
+        "Range": "5 / 7"
+    },
+    "Unit stats": {
+        "Defense": "175  1 (+1)",
+        "Attributes": "Biological, Psionic",
+        "Sight": "9",
+        "Speed": "1.31",
+        "Cargo size": "2"
+    },
+    "Strong against": [
+        "VoidRay",
+        "Hellion",
+        "Mutalisk"
+    ],
+    "Weak against": [
+        "Zealot",
+        "Marine",
+        "Zergling"
+    ],
+    "Ability": "Not Ability Found",
+    "Upgrade": "Not Upgrade Found",
+    "Competitive Usage": {
+        "General": "A Queen should be placed at every Hatchery in all match-ups, and should utilize Spawn Larva constantly. If a Queen misses a Spawn Larva, the excess energy should be used to place a Creep Tumor, which can spread indefinitely, provided the live one isn't killed.It can be used to kill an early scout in lieu of two Zerglings.If you scout a quick air-tech against any race and you are unprepared, spawning additional Queens can help defend imminent rushes. Coupled with Transfusion and ~100-150 energy, you can easily survive at least 3-4 Void Rays/Banshees. It should be noted that this is not an alternative to getting Hydralisks for air defense but rather a temporary solution to early harass.Producing an extra Queen or two can help save resources; multiple Mutalisks can be restored to full health with Transfusions after an harassment. Due to the high value of Brood Lords, bringing Queens to the front line has become more popular - provided creep has been spread appropriately throughout the game. The Queen's lack of common attributes (i.e. Light or Armored) combined with a relatively large amount of HP and extended by Transfusion(s) make for a surprisingly good tank; being nothing but biological and psionic, it only receives bonus damage from Archons and the Ghost's Snipe.",
+        "Vs. Protoss": "Queens are useful to defend fast expansions as well as defend against Void Ray rushes. Generally, 1.5 Queens are necessary to counter each Void Ray, or 1 Queen and 1 Spore Crawler for each 1.5 Void Rays.",
+        "Vs. Terran": "Queens are often the key unit in defending an early rush/harassment from a Terran player, and proper management is crucial to minimize losses. They can be used to defend drones from Reapers or Hellions attempting to enter the Zerg's mineral line to kill drones. Queens can be used to deter Vikings that venture too deep into the Zerg player's creep, and can stand their own against Banshee attacks (with detection), Raven harass, or drops when used in combination with Infestors.",
+        "Vs. Zerg": "The Queen is the heart of Zerg production in this match-up. Since each Queen is worth more in production than an additional Hatchery and because Queens are often so vulnerable, sniping enemy Queens can provide a significant advantage early on. Since ZvZ tends to be the shortest of all match-ups, forcing the opponent to spend an additional 175 minerals, lose 1 round of injection, and spend 50 seconds build time puts the aggressor at a massive advantage.It also becomes necessary, then, to make sure the Queen is protected. Although Spine Crawlers are decent at defense, they are not enough to stop a flood of Zerglings from destroying the Queen. Therefore, the most common way of defending a Queen is to surround it with a Roach wall (with the Queen and Roaches on hold position), as Queens require very little movement to do their work.Drones may also be right clicked onto the Queen, causing them to circle around the Queen. This causes enemy Zerglings to circle around the Drones because their targeting AI will prioritize the attacking Queen and not the non-attacking Drones. This will require your opponent to individually target Drones or hold position in order to attack them.If the opponent does not remove their scouting Overlord from your base, the Queen should be able to kill the Overlord with relative ease."
+    }
+}

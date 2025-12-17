@@ -1,0 +1,54 @@
+{
+    "Type": "Air Unit",
+    "Description": "The Mutalisk is an extremely fast air attack unit capable of attacking both air and ground units. The Mutalisk's projectile, called \"Glaive Wurm\", hits the target and then two subsequent targets (each for a third of the damage of the previous hit). Mutalisks make effective scouts and skirmishers, able to slow/disrupt mining operations, incoming forces, or enemy expansions.Needing a high economy to produce in mass, Zerg players believe they \"have to do damage\" especially to workers and unfinished buildings (no armour bonus). An alternative to this mantra that may come with experience is to: \"Aim for the low hanging fruit.\" As simply keeping Mutalisks alive and taking advantage of their Mutalisk Regeneration keeps this threat alive and forces the opposing player to make more static defences as the size of the Mutalisk flock grows.The other consideration is Mutalisk have a weakness to anti-air splash damage of Terran units and bonus damage to Light units of Protoss, a weakness the high health of Corruptors do not and if the opponent counters with mass air units Vipers can exploit just as well with Parasitic Bomb.",
+    "Built From": "Spire",
+    "Requirements": "Not Found",
+    "Cost": {
+        "mineral": 100,
+        "vespene": 100,
+        "game_time": 24,
+        "supply": 2
+    },
+    "Hotkey": "T",
+    "Attack": {
+        "Targets": "Ground / Air",
+        "Damage": "9 (+1.000) (1st bounce),  3 (+0.333) (2nd bounce),  1 (+0.111) (3rd bounce)",
+        "DPS": "8.26 (+0.92) (1st bounce),  2.75 (+0.31) (2nd bounce),  0.92 (+0.10) (3rd bounce)",
+        "Cooldown": "1.09",
+        "Bonus": "Not Found",
+        "Bonus DPS": "Not Found",
+        "Range": "3"
+    },
+    "Unit stats": {
+        "Defense": "120  0 (+1)",
+        "Attributes": "Biological, Light",
+        "Sight": "11",
+        "Speed": "5.63",
+        "Cargo size": "Not Found"
+    },
+    "Strong against": [
+        "Viking",
+        "BroodLord",
+        "VoidRay"
+    ],
+    "Weak against": [
+        "Phoenix",
+        "Corruptor",
+        "Liberator",
+        "Thor"
+    ],
+    "Ability": [
+        {
+            "Name": "Tissue Regeneration",
+            "Hotkey": "Not Found",
+            "Description": "Mutalisk health regeneration rate increased to 1.4 HP/second."
+        }
+    ],
+    "Upgrade": "Not Upgrade Found",
+    "Competitive Usage": {
+        "General": "Early-game Mutalisks are Harassment units and should be used as such. They should only directly engage an army when they massively outnumber the opposing force or are supporting a large ground force. Their strength lies in their mobility, picking off stray units, workers, and buildings. Because few units are fast enough to keep up with Mutalisks, they provide indirect map control - if an enemy balls up their forces to take the offensive, Mutalisks can be used to pick off buildings and units within the enemy base, forcing the enemy back to defend.Deciding how many Mutalisks to morph is crucial. As each Mutalisk is added to the group, the benefits gained decrease. The number of Mutalisks to make depends on the situation and must be learned through experience. When used for harassment, attack upgrades should have priority over armor upgrades, as your objective is to cause as much damage possible to defenseless targets and run away before much enemy fire comes your way.",
+        "Vs. Protoss": "Harassment - Due to the mobility of Mutalisks, they are also very effective at harassing Protoss Probes, exposed buildings and stray units.Note regarding Sentries - Be wary of Protoss players using the Guardian Shield ability on their Sentries. This reduces the attack damage done by the Mutalisk, but also, more significantly, it reduces the first bounce damage to 1 (2 with 3 attack upgrades) and the second to 0, effectively reducing 2+2+1 damage. This flat deduction actually gets worse in relation as the Glaives' upgrade effects do not match opposing defensive upgrades.The natural Protoss counter to the Mutalisk is the Phoenix, that does extra damage versus Light units and is more mobile than the Mutalisk. A Protoss that decides to tech to Phoenixes will generally shut down any Mutalisk play and will get map control. It is important to rule out Phoenix play before teching to Mutalisks.",
+        "Vs. Terran": "Muta Spread Technique vs Thors and Liberators (\"Magicboxing\"). With proper micro it's possible to take on Thors with Mutalisks, this does however require a special micro technique called \"magicboxing\". The way this works is that whenever Mutas attack they clump up on each other. The way to prevent this is to fly right over the Thors using a move command and hit the Stop or Hold position button, in this way the Mutas will be spread out and take no splash damage while they start attacking the Thors. With this technique it is not possible to focus fire as that would clump them up, but usually only 1 or 2 Thors fit underneath a mutalisk pack.",
+        "Vs. Zerg": "In Mutalisk vs Mutalisk battles, Flyer Carapace should always be upgraded rather than Flyer Attacks if possible; Air Carapace decreases the damage of all 3 bounces from the glaive wurm by 1 each, while Air Attack only increases the damage of the attacks by 1, 0.33, and 0.11. Air Attack is preferred against Corruptors as it increases the damage dealt to Corruptors by ~16% while Air Carapace only decreases the damage taken by ~7%. Against Hydralisks, the correct upgrade depends on what Mutalisks are being used to accomplish. Attack upgrades assist in sniping Hydralisks, Queens, and Spore Crawlers, but armor helps soak up damage, allowing more time for ground units to close with the Hydralisks.Because the effectiveness of upgrades increases as the number of units increases, a player who upgrades their Mutalisks early should play defensively and accumulate Mutalisks rather than trading them against enemy units, and then make a timing attack as soon as the upgrade completes. Conversely, a player should attempt to engage an opponent suspected to be stalling for upgrades to finish. Additionally, this also means that upgrades should be started sooner on macro-oriented maps and positions, and vice versa."
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "Type": "Medium Air Unit",
+    "Description": "The Corruptor is a flying Zerg unit that has strong anti-air capabilities with decent speed. They are also distinguished from Mutalisk by their greater range and huge health pool, as well as their inability to attack ground. They are effective in any case where they can force engagements: against capital ships, for example; inversely, when they cannot, and especially when they are outranged, as by Phoenixes, they tend to be a weak air unit for that situation.The Corruptor also possesses the ability to use Caustic Spray on any enemy buildings, which deals heavy damage over time while the ability is channeled.Corruptors are what morph into the powerful Brood Lords. This can only be done once the Zerg player has upgraded the Spire into a Greater Spire.",
+    "Built From": "Not Found",
+    "Requirements": "Spire",
+    "Cost": {
+        "mineral": 150,
+        "vespene": 100,
+        "game_time": 29,
+        "supply": 2
+    },
+    "Hotkey": "C",
+    "Attack": {
+        "Targets": "Air",
+        "Damage": "14 (+1)",
+        "DPS": "10.29 (+0.74)",
+        "Cooldown": "1.36",
+        "Bonus": "+6 (+1) vs Massive",
+        "Bonus DPS": "+4.4 (+0.74) vs Massive",
+        "Range": "6"
+    },
+    "Unit stats": {
+        "Defense": " 200  2 (+1)",
+        "Attributes": "Armored, Biological",
+        "Sight": "10",
+        "Speed": "4.725",
+        "Cargo size": "Not Found"
+    },
+    "Strong against": [
+        "Battlecruiser",
+        "Mutalisk",
+        "Phoenix"
+    ],
+    "Weak against": [
+        "Hydralisk",
+        "Viking",
+        "VoidRay"
+    ],
+    "Ability": [
+        {
+            "Name": "Caustic Spray",
+            "Hotkey": "C",
+            "Description": "Emits a stream of acid that deals 7 damage per second for 4.29 seconds, then increases to 35 damage per second. Can only target Structures.Caustic Spray deals 30 damage before its damage per second increases."
+        },
+        {
+            "Name": "Morph to Brood Lord",
+            "Hotkey": "B",
+            "Description": "Morphs the Corruptor into a Brood Lord. Requires a Greater Spire.Morph to Brood Lord takes 24 seconds in Legacy of the Void."
+        }
+    ],
+    "Upgrade": "Not Upgrade Found.",
+    "Competitive Usage": {
+        "General": "Not Found.",
+        "Vs. Protoss": "General purpose - The Corruptor can maintain air-supremacy over most Protoss Air in small numbers. However, Protoss air units become more and more powerful vs the Corruptor later on. This is due to the potency of the Void Ray's Prismatic Alignment ability, Carriers, and Tempests, in larger numbers, as well as the fact that Phoenixes with increased range outrange and outmobilize Corruptors. As such, Corruptors are typically used to complement other forms of anti-air against air-focused Protoss play as the game progresses.With Mutalisks - Corruptors complement Mutalisk play very nicely when used to zone out Phoenixes. While Phoenix grow more effective versus both Corruptors and Mutalisks as the game progresses, Corruptors are very strong in aggressively establishing control over Protoss territory for Mutalisk counterattacks and base trade scenarios.Against Colossus - Corruptors are sometimes massed to snipe the Colossi in a Protoss composition, similar to how Terran uses Vikings. The Corruptor is a hard counter to Colossi because the Colossi can be targeted by Anti-Air, is considered a Massive unit, and does not have anti-air attacks of its own.Late game - Massed Corruptors can be useful when used in conjunction with Vipers in defensive territory. Since most late game Protoss units are very expensive, Viper abducts on units such as Colossi, Void Rays, Carriers, and Tempests can significantly hinder Protoss attempts to attack a Zerg establishment.",
+        "Vs. Terran": "vs Marine/Marauder/Medivac/Mine- Zerg players can build Corruptors instead of Mutalisks. Corruptors cannot shoot down, which makes them unable to harrass, but they are cheaper (6-10, 6 Corruptors 2shot Medivacs assuming equal upgrades), tankier, have more range, and automatically target Medivacs. This allows the Zerg player to spend more gas on Banelings and more attention on microing the ground army to set off Widow Mines and get good Baneling detonations by move commanding past Thors and Marauders. A Terran bio army is less effective once the Medivacs are gone, and Corruptors are good at sniping drops in transit, as well as Banshees, although they need ground support to clean drops if they've already unloaded.Countering Vikings - - Terran players may choose to make Vikings to kill Zerg Brood Lords. Corruptors can protect Brood Lords from such attempts effectively.As a transitional unit - - Most Zergs build Corruptors with the intention of morphing them into Brood Lords, due to their cost-efficiency against Terran ground units.Battlecruisers - - With the bonus damage to massive units, Corruptors have good chances at taking down Battlecruisers.Ravens - Zerg may keep a healthy Corruptor count to protect high-value Zerg units from Ravens attempting to land Hunter Seeker Missiles, killing Ravens and soaking Missile shots.",
+        "Vs. Zerg": "Corruptors aren't seen often in Zerg vs Zerg, as most matches tend to revolve around early-mid game ground units (Roaches, Hydralisks, Zerglings etc.). Their targets in such cases where they are used are Mutalisk and Brood Lords, but Corruptors are used to attempt to defensively counter and are not units that can win games on their own. Mutalisks have much greater agility as well, so Corruptors cannot be relied upon to force engagements and Mutalisks of one's own or Spore Crawlers tend to be more effective for shutting down harassment at all expansions. In the late game however, when Brood Lord tech is available through the Greater Spire, Corruptors are the first choice to counter enemy Brood Lords, provide air dominance and also have the potential to transform into Brood Lords themselves."
+    }
+}

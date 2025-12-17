@@ -1,0 +1,56 @@
+{
+    "Type": "Air Unit",
+    "Description": "The Warp Prism is a Protoss transport unit, produced at the Robotics Facility. In Legacy of the Void, it can pickup units from a larger distance (5 range away). The Warp Prism can shuttle up to eight cargo of Protoss units while in Transport Mode (see table below). Unlike other transports, the Warp Prism can convert to Phasing Mode, which renders it stationary while it provides the Psionic Matrix in an area around it. This allows units from Warp Gates to warp in around the Warp Prism, and it can even allow buildings to be powered or warped in without the need for a nearby Pylon. The Warp Prism's movement speed can be improved by researching the Gravitic Drive upgrade at the Robotics Bay.",
+    "Requirements": "Not Found",
+    "Cost": {
+        "mineral": 250,
+        "vespene": 0,
+        "game_time": 36,
+        "supply": 2
+    },
+    "Hotkey": "A",
+    "Attack": "Not Attack Found",
+    "Unit stats": {
+        "Defense": "80  100  0 (+1)",
+        "Attributes": "Armored, Mechanical, Psionic",
+        "Sight": "10",
+        "Speed": "4.13 (+1.23)",
+        "Cargo size": "8"
+    },
+    "Strong against": "Not Found",
+    "Weak against": "Not Found",
+    "Ability": [
+        {
+            "Name": "Phasing Mode",
+            "Hotkey": "E",
+            "Description": "Transforms the Warp Prism to Phasing Mode and generates a power radius similar to that of a Pylon. The Warp Prism cannot move in this mode."
+        },
+        {
+            "Name": "Transport Mode",
+            "Hotkey": "T",
+            "Description": "Reverts the Warp Prism back to Transport Mode, allowing it to move."
+        },
+        {
+            "Name": "Load",
+            "Hotkey": "L",
+            "Description": "The Warp Prism has a cargo space of 8."
+        }
+    ],
+    "Upgrade": {
+        "Name": "Gravitic Drive",
+        "Details": [
+            "100",
+            "100",
+            "57",
+            "Hotkey: G",
+            "Researched from: Robotics Bay"
+        ],
+        "Description": "Increases the movement speed and acceleration of the Warp Prism."
+    },
+    "Competitive Usage": {
+        "General": "The Warp Prism is mostly seen in \"drop\" play, where it sneaks into the opponent's base and allows Zealots or Dark Templars to warp in and attack the opponent's workers. Warp Prisms can also be an effective tool for reinforcing armies due to their \"deployable pylon\" ability, but usually less-expensive \"proxy\" Pylons, built near the front lines, serve that role.Warp Prisms are rarely seen until the later stage of most games due to fierce competition within the Robotics Facility in terms of what to build. Both the Immortal and Colossus are very powerful units which are essential in many situations throughout the game. Most Protoss units do not have any synergy with drop ships; Stalkers can blink up and down cliffs, Colossus can walk through cliffs, and Zealots/Archons/Dark Templar don't get any benefit from high ground. Prior to Patch 1.4, Warp Prisms were viewed as being far too fragile to use effectively, earning the nickname 'paper planes'. Warp Prisms are much hardier now at 80 HP and 100 shields, so their usage is nowhere near as much of a risk as it used to be.Whilst a speed upgrade does exist, it is usually a low priority upgrade compared to Blink or Extended Thermal Lances. As such, it is difficult to incorporate Warp Prisms into a stable strategy unless you are ahead in the game and can afford to skip a Colossus or see an opportunity to do a drop.A hallucinated Warp Prism can trick your opponent into retreating back into their base to defend.",
+        "Vs. Protoss": "In PvP, Warp Prisms are a very good way of harassing your opponent. Warp Prisms may be used to drop Immortals in the enemy base and snipe a key tech structure or warp-in Zealots to damage the economy. Prisms however are risky if the opponent has access to Blink or Phoenix.Prisms can also be a great source of scouting information which is especially vital in this match-up. A Warp Prism can also be used in mid game engagements to micro units around prolonging their longevity. Players who are especially skilled in this tactic have much better chances of winning engagements.",
+        "Vs. Terran": "Warp Prisms can be used to drop inexpensive units, such as Probes or Zealots, onto enemy Siege Tanks to inflict splash damage on your opponent's units. This technique is similar to the Bombing technique in StarCraft.Warp Prisms can be used to carry High Templar, this is beneficial both because the slow moving Templar cannot keep up with Stalkers and Zealots equipped with their charge upgrade and because a (cloaked) Ghost could EMP all of the Templar at once. The player must be careful of Vikings however as they deal bonus damage to prisms combined with the relatively low HP of the prism.",
+        "Vs. Zerg": "The Warp Prism is arguably the most important component of the PvZ matchup. Timing attacks do not work without a prism to provide a reinforcement point and if the prism dies or was never present the push will lose it's ability to continue momentum once a good portion of the initial units have been killed.It's also the most consistent harassment tool that a Protoss can have. A prism that can stay alive can keep the Zerg at home for long periods of time or deal deadly amounts of damage to an undefended mineral line. It can also save a small amount of the units used to harass or warp them in beforehand to provide additional units for the harass. A skilled player will usually never risk losing a prism just to get a lot of Drones in one go but rather deal harass in small amounts adding up.Compared to other forms of harassment such as Phoenix or Oracles Warp Prisms do not need to put themselves in direct danger to deal damage, they can fly in warp in at a blind spot and then get out and let the Zealots deal the harass on their own. They can also just set up from a distance and warpin from there to be used as a runby."
+    }
+}

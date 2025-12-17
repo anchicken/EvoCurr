@@ -1,0 +1,61 @@
+{
+  "Type": "Ground Unit",
+  "Description": "The Cyclone is a fast hit-and-away vehicle produced from a Factory with an attached Tech Lab. It was first introduced in Legacy of the Void.The Cyclone has an ability called Lock On which does 20 damage (with or without weapon upgrades) and ignores armor, and has a longer range and allows it to shoot while moving. Paired with a high movement speed, this makes the Cyclone a master at kiting.",
+  "Built From": "Factory with Tech Lab",
+  "Requirements": "Not Found",
+  "Cost": {
+    "mineral": 150,
+    "vespene": 100,
+    "game_time": 32,
+    "supply": 3
+  },
+  "Hotkey": "Not found",
+  "Attack": {
+    "Targets": "Ground / Air",
+    "Damage": "10 (+1) (x2)",
+    "DPS": "25.2 (+1.4)",
+    "Cooldown": "0.71",
+    "Bonus": "Not found",
+    "Bonus DPS": "Not found",
+    "Range": "5"
+  },
+  "Unit stats": {
+    "Defense": "120 1 (+1)",
+    "Attributes": "Armored, Mechanical",
+    "Sight": "11",
+    "Speed": "4.725",
+    "Cargo size": "4"
+  },
+  "Strong against": [
+    "Marauder",
+    "Roach",
+    "Adept"
+  ],
+  "Weak against": [
+    "SiegeTank",
+    "Zergling",
+    "Immortal"
+  ],
+  "Ability": {
+    "Name": "Lock On",
+    "Hotkey": "C",
+    "Description": "Locks the Cyclone's weapons on the target unit, increasing the Cyclone's range to 15 and allowing it to move while firing. Cancels if target moves out of range."
+  },
+  "Upgrade": {
+    "Name": "Mag-Field Accelerator",
+    "Details": [
+      "100",
+      "100",
+      "100",
+      "Hotkey: R",
+      "Researched from: Tech Lab"
+    ],
+    "Description": "Increases the range of the Colossus weapon by 2."
+  },
+  "Competitive Usage": {
+    "General": "Since patch 5.0.12 Cyclones are again buildable from a reactored factory and they are debateably stronger early game due to the Lock On cooldown removal and, because of their anti-mech bonus, cyclones are still good options against early harassing units such as Medivacs, Banshees, Oracles or Warp Prisms.",
+    "Vs. Protoss": "A counter to early-game Stargate units and Gateway units. Outrange Adepts and Oracles as well as dealing considerable damage to Stalkers since they are mech units.Immortals are a hard counter to them.Can be effectively used early in the game to pressure a greedy Protoss and snipe key units before they become counters such as Stalkers before Blink and Zealots without Charge.Phoenixes are less effective verse Cyclones as the new Lock On ability does not have a cooldown.To a more micro-intensive (and risky) extent, Warp Prisms loaded with Immortals can effectively counter Cyclones with pickup/drop play.",
+    "Vs. Terran": "Against Banshee openings, a single Cyclone is capable of dealing with a single Banshee if it is micro'd away from the Banshee and maintains detection/vision, do note that the Cyclone is faster and Lock On gives it 9 effective range.Against early Marines + Siege Tank, pushes common in this mirror match, Cyclones do little except spot the attack coming across the map. Mass Hellions to kill the Marines (leaving the Tanks defenseless) is far more useful.The Raven's Interference Matrix forcibly cancels Lock On.",
+    "Vs. Zerg": "Faster than Roaches and Ravagers off creep, but outrun by Zerglings.Slower than Roaches or Ravagers on creep.Banshees are more often made blindly to counter Roaches and force Spore Crawlers.The Hellion/Cyclone style is common against Zerg as the Hellion can cover the Cyclones during Lock On from their counter: Zerglings allowing for effective poke damage and/or sniping bases.Burrowed units (especially Banelings) are highly effective against this extremely mobile force and/or Infestors with Fungal Growth.Vipers can also use Abduct to separate the more dangerous Cyclones from the main army. Beware to not lose the Viper to a Lock On however.Used to protect Battlecruisers from being sniped by Corruptors."
+  }
+}

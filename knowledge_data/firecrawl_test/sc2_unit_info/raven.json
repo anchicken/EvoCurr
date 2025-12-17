@@ -1,0 +1,54 @@
+{
+    "Type": "Air Unit",
+    "Description": "The Raven is a flying support craft with Detection. Its abilities provide both defensive and offensive capabilities. The Raven is the spiritual successor to StarCraft: Brood War's Science Vessel.Ravens are a useful addition to a mid or late-game Terran army. For instance, its Detection allows Terran players to see both cloaked and burrowed units such as Ghosts, Dark Templar, and burrowed Roaches that enter the Raven's vision.",
+    "Requirements": "Not Found",
+    "Cost": {
+        "mineral": 100,
+        "vespene": 150,
+        "game_time": 34,
+        "supply": 2
+    },
+    "Hotkey": "R",
+    "Attack": "Not Attack Found",
+    "Unit stats": {
+        "Defense": "140  1 (+1)",
+        "Attributes": "Light, Mechanical, Detector",
+        "Sight": "11",
+        "Speed": "4.13",
+        "Cargo size": "Not Found"
+    },
+    "Strong against": [
+        "DarkTemplar",
+        "Banshee",
+        "Roach"
+    ],
+    "Weak against": [
+        "Phoenix",
+        "Ghost",
+        "Corruptor"
+    ],
+    "Ability": [
+        {
+            "Name": "Detector",
+            "Hotkey": "Not Found",
+            "Description": "The Raven is a Detector unit that can see cloaked, burrowed and hallucinated units."
+        }
+    ],
+    "Upgrade": {
+        "Name": "Hi-Sec Auto Tracking",
+        "Details": [
+            "100",
+            "100",
+            "57",
+            "Hotkey: E",
+            "Researched from: Tech Lab"
+        ],
+        "Description": "Allows Ravens to use the Interference Matrix ability."
+    },
+    "Competitive Usage": {
+        "General": "It is important to note that while the Raven is applicable in many situations its fragility, high cost and dedicated abilities require the player's attention at all times to provide a worthwhile investment. Like the Ghost, the Raven is especially an anti-caster unit.",
+        "Vs. Protoss": "The Terran player uses Ravens to support his push during a TvP on Metalopolis.Ravens are primarily used as mobile detectors in TvP, providing protection from Dark Templar, and allowing the Terran to destroy scouting Observers to limit the scouting potential of the opposing Protoss player.The recent changes to the Raven have allowed it to be situationally effective in the mid-game to late-game as part of a Terran composition to oppose high-value units using its Interference Matrix to disable Protoss Colossi, High Templar, Tempests, Carriers, and even Oracles. A single Raven can disable up to two of these units for 11 seconds, long enough for a bio ball or mech force to re-position or to kill these important targets.The Raven's susceptibility to a High Templar's Feedback, however, limits its uses in TvP somewhat. While both Interference Matrix and Feedback have 9 range, Feedback does not have a travel time so it is likely to proc and kill the Raven first.",
+        "Vs. Terran": "A single Raven forces a Siege Tank to unsiege or be destroyed on the high ground of Desert Oasis.Raven use in TvT is dependent on the opening builds of the two players, and the amount of gas they consume. They are commonly used to defend against early Banshee harass when paired with a defensive Viking.Ravens can use Interference Matrix to disable key units in the early mid-game such as Siege Tanks and Medivacs (preventing them from healing and dropping off units as well as using Ignite Afterburners.",
+        "Vs. Zerg": "Hincram(T) uses his Ravens to attack SluSh's(Z) Roach / Zergling force during a game on Lost Temple.Ravens have multiple uses in TvZ. A premier benefit of Raven usage is its functionality as a mobile Detector, which allows the Terran player to defend properly against burrowed Banelings and (mobile) Roaches and Infestors.The above example is a dated but applicable tactic that can still be applied to the Raven's new Anti-Armor Missile to force zerg armies to retreat or to fight in a situation advantageous to the Terran. Note that Interference Matrix is also usable on Psionic units such as the Queen and especially the Viper to prevent a Blinding Cloud or Abduct."
+    }
+}

@@ -1,0 +1,75 @@
+{
+  "Type": "Ground Unit",
+  "Description": "The Colossus (plural -lossi, -lossuses) is a massive Protoss battle strider that towers over all other ground units on the battlefield. It is built at the Robotics Facility, but requires the presence of a Robotics Bay to be unlocked. Its long-range dual Thermal Lances target units in a wide linear area of effect, perpendicular to the Colossus's direction of fire. This makes the Colossus a powerful siege unit that can quickly destroy an enemy's ground forces. Colossi have massive legs and enormous height, which can both be an advantage and disadvantage. Firstly, the height allows anti-air attacks to hit it; care must be taken with Colossi to make sure units like Vikings or Corruptors do not pick them off in battle as they are relatively fragile units for their cost. Secondly, its weapon comes with a base range of 7, and the Extended Thermal Lance upgrade extends it to an impressive attack range of 9, which allows it to attack from behind the main Protoss army. Thirdly, the legs grant them the ability to traverse cliffs and provide vision of high ground areas, as well as stacking over other units in the player's army. However unlike smaller ranged units, if a Colossus is on the high ground and attacks enemy units on the low ground, the enemy gains temporary vision of the Colossus and can return fire. This revealing mechanic does put a limit on their ability to exploit high ground, but can still be useful for engaging short ranged units. Overall, care must be taken to account for these unique characteristics, but these also help make the colossus a powerful unit.",
+  "Built From": "Not Found",
+  "Requirements": "Infestation Pit",
+  "Cost": {
+    "mineral": 100,
+    "vespene": 150,
+    "game_time": 36.0,
+    "supply": 2
+  },
+  "Hotkey": "F",
+  "Attack": "Not Found",
+  "Unit stats": {
+    "Defense": "90  0 (+1)",
+    "Attributes": "Armored, Biological, Psionic",
+    "Sight": "10",
+    "Speed": "3.15",
+    "Cargo size": "2"
+  },
+  "Strong against": [
+    "Marine",
+    "Immortal",
+    "Mutalisk"
+  ],
+  "Weak against": [
+    "Ghost",
+    "Ultralisk",
+    "HighTemplar"
+  ],
+  "Ability": [
+    {
+      "Name": "Burrow",
+      "Hotkey": "R",
+      "Description": "Buries the unit underground. Burrowed units are unable to attack, but they cannot be seen without detection. This unit may move while burrowed. Requires Burrow researched at Hatchery, Lair, or Hive"
+    },
+    {
+      "Name": "Neural Parasite",
+      "Hotkey": "E",
+      "Description": "The Infestor temporarily takes control of target enemy unit. The player can cancel this ability, or it will automatically cancel if the controlling Infestor is killed or the targeted unit is moved out of 14 range. Can not target Heroic units.Neural Parasite is a channeled spell that takes control of an enemy unit. This ability is best used against high-tier units and spellcasters. Enemy spellcasters controlled by a Neural Parasite cast their spells as if owned by the player who controls the Infestor, and will deplete their energy as normal. While active, the Infestor is helpless, and unable to move, cast spells, or burrow, but the Infestor can cancel the spell at any time. A long cord, visible to both players, tethers the victim to the Infestor. If the victim moves too far (>14 grid units) from the Infestor for any reason (including Abduct, etc.), the tether will break and the spell will end, freeing both the victim and the Infestor. Neural Parasite can't target Heroic units."
+    },
+    {
+      "Name": "Fungal Growth",
+      "Hotkey": "F",
+      "Description": "Target units take 25 damage over 3 seconds and have movement speed reduced by 75%. Reveals cloaked and burrowed units. Affected units cannot Blink, Tactical Jump, or load into transports or buildings.Fungal Growth is very useful despite its relatively high energy cost. It is most effective against groups of clustered, weak units like Marines and Zerglings. Restricted movement prevents enemy units from fleeing, and can prevent melee units from reaching their targets. However, affected units can still attack, and the ability does not stack. It can be used on Cloaked and Burrowed units and will reveal them for its duration. Fungal Growth also inhibits the Stalker's Blink and Battlecruiser's Tactical Jump abilities. Affected units cannot enter a transport unit (Medivac, Overlord, or Warp Prism). Tightly clustered air units are especially vulnerable, as there is no upper limit of potential targets."
+    },
+    {
+      "Name": "Microbial Shroud",
+      "Hotkey": "c",
+      "Description": "Creates a shroud that obscures ground units underneath, reducing damage taken from air units by 50%. Lasts 11 seconds.Since Patch 5.0.14, Microbial Shroud lasts for 3.57 seconds on units leaving the Shroud."
+    },
+    {
+      "Name": "Removed Spells",
+      "Hotkey": "T",
+      "Description": "Spawns an Infested Swarm Egg, which takes 5 seconds to hatch and has 70 health. An Infested Terran has 50 health, lives for 21 seconds and has a ranged attack.An Infestor, throwing an Infested Swarm Egg from underground Infested Terran is a versatile spell that is excellent for harassment. Since Infestors can use this spell while Burrowed, they can sneak behind enemy mineral lines and cast this spell to disrupt the enemy's economy (especially when used with Fungal Growth), or destroy key buildings without sacrificing portions of their main army. Infestors can be paired with ground-attacking only units (such as the Ultralisk/Zergling) and spawn the Infested Terrans to deal with air units. Infested Terrans are disposable (they cost nothing to create and automatically expire after twenty-one seconds) and, as such, can be spawned as the front line to tank damage while the main army is behind, semi-protected by the Infested Terrans. For example, spawning Infested Terrans on top of Siege Tanks is an excellent way to gain ground while causing the tanks to inflict friendly fire. They are also easy to replenish with numerous Infestors; an infestor gains 25 energy in approximately 31.7 seconds, meaning that a Zerg player can spawn approximately two Infested Terrans per minute per Infestor that he has in his army. Coupled with an Overlord, an Infestor can spawn Infested Terrans across different levels of terrain for harassment. By using the rapid fire method, Zerg users can choose to drop Infested Terrans one-by-one or in a single, massive clump. They deal significantly more damage to air units and can be combined with the lock down potential of Neural Parasite and Fungal Growth."
+    }
+  ],
+  "Upgrade": {
+    "Name": "Neural Parasite",
+    "Details": [
+      "150",
+      "150",
+      "70",
+      "Hotkey: E",
+      "Researched from: Infestation Pit"
+    ],
+    "Description": "Allows Infestors to use the Neural Parasite ability."
+  },
+  "Competitive Usage": {
+    "General": "Not Found",
+    "Vs. Protoss": "Neural Parasite is most often used as a counter to a maxed-out Protoss army in the late game, especially against carriers and archons. They can also be used to break recall the Protoss uses when caught in a bad position, effectively making the targeted units free pickings as the rest of the Protoss army get recalled.Fungal Growth is a useful spell in ZvP in many situations. Against attacks without a large amount of Sentries, and in large battles, the Fungal Growth is mostly used to \"lock\" units in place (and prevent Blink usage from Stalkers), so it is possible to get a surround on them with the low-range Zerg units such as the Zergling and the Roach. Fungal Growth also reveals cloaked units such as the Observer and the Dark Templar as well as dealing damage to them. Void Rays, due to their tendency to clump and relatively slow speed, are often targets for Fungal Growth, and can be ensnared in preparation for a Hydralisk or Mutalisk attack. Faster air units such as the Phoenix have an easier time dodging fungals due to their high speed, however.Microbial Shroud is rarely used. Hydralisks and queens are the only ground unit that shoot up so they could theoretically be very well supported with Microbial Shroud. However, they are both countered by storm, which does spell damage which is not reduced by Microbial Shroud. The ability could also be useful to cover spore forest against carriers.",
+    "Vs. Terran": "Neural Parasite should be used on any high damage or high cost units such as Battlecruisers, Siege Tanks and Thors. Since Siege Tanks greatly outrange this ability, Roaches or Zerglings, are often used to draw fire to allow the Infestor to get in range to use Neural Parasite. It is used against Battlecruisers to force them to teleport away from a fight, or to teleport them in place so they cannot escape.Fungal Growth brutalizes Terran Bio armies. Bio units tend to fight in tight clumps, maximizing the number of units affected. Two consecutive Fungal Growths will kill Marines. Furthermore, Bio units often use stutter step micro to exploit their mobility in combat; Fungal Growth mitigates this advantage, allowing Zerglings to surround, Banelings to connect, and for Hydralisks to attack the marines with their superior range. It can also immobilize and kill Medivacs to block Terran drop harass. In the late game it is often used to protect Brood Lords from Marines and Vikings. However, the spell has seen a drop in use since its change to a projectile spell.Microbial Shroud is extremely rare in this matchup. Terran doesn't tend to go full air, and even if they do, they still come with ground mech support like Siege Tanks or Ghosts which the shroud doesn't do anything to it. Theoretically, it can be used against liberator's defender mode, but such Viper's abduct or Parasitic Bomb can do the job better. Infestors also want to save their energy for better spells such as Neural Parasite and Fungal Growth.",
+    "Vs. Zerg": "Neural Parasite is rarely used in this matchup because there are relatively few Zerg units worth controlling. The Ultralisk is immune to this ability (Frenzied). Enemy Infestors can be worth targeting, if only to deplete their energy.Fungal Growth, however, is an important spell in ZvZ. Because Zerg armies consist of numerous mobile units, Fungal Growth's immobilization is devastating to the opposing army. Although players primarily use it against ranged units, it can also render melee units such as Zerglings and Banelings ineffective. Note that Fungal Growth does not one-shot either of them due to regeneration. Fungal Growth can also prevent units from unburrowing (including Ultralisks).If enough Infestors have been built, it is possible to eliminate large clumps of Mutalisks by reapplying Fungal Growth five times, provided the Mutalisks are stacked. Done correctly, this can potentially allow the Infestor user to wipe out his opponent's air force without incurring a single loss, as Fungal Growth outranges Mutalisks. Similarly, it is possible to safely eliminate Mutalisks by combining Fungal Growth and Hydralisks, whose range also allows them to strike with impunity. In reaction to Infestors, a Mutalisk player should try to send in a few Mutalisks at a time to pick off Infestors before a large engagement; since Infestors are so gas-intensive, players will often very rarely have any anti-air accompanying them, forcing the Infestors to waste their energy.Fungal Growth can also play a massive role in large Roach battles by damaging the opponent's Roaches and preventing them from achieving a good concave or burrowing to regenerate. This strategic advantage can cause enormous shifts in battles and is one of the most common units used in ZvZ. Because Roaches have a relatively short range, you can fungal them to clog up their lines so more of your Roaches than your opponent's can attack at once.Microbial Shroud is nearly pointless to use in this matchup since the only common air unit in the mirror matchup is Mutalisks, and Fungal Growth can catch them up better. Mutalisks are unlikely to stick with the engagement for too long, and Microbial Shroud is a stationary spell, it is ill-advised to use the ability against them. Occasionally, even if Brood Lords do come to the field, they can spawn broodlings to overwhelm the units underneath the shroud."
+  }
+}

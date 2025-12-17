@@ -1,0 +1,802 @@
+{
+  "EFFECT_STIM_MARINE": {
+    "upgrade_name": "EFFECT_STIM_MARINE",
+    "affected_units": [
+      "Marine"
+    ],
+    "description": "Stimpack increases the Marine's movement speed and firing rate by 50% at the cost of 10 HP. This effect lasts for 11 seconds."
+  },
+  "EFFECT_STIM_MARAUDER": {
+    "upgrade_name": "EFFECT_STIM_MARAUDER",
+    "affected_units": [
+      "Marauder"
+    ],
+    "description": "Stimpack increases the Marauder's movement speed and firing rate by 50% at the cost of 20 HP. This effect lasts for 11 seconds."
+  },
+  "SIEGEMODE_SIEGEMODE": {
+    "upgrade_name": "SIEGEMODE_SIEGEMODE",
+    "affected_units": [
+      "SiegeTank"
+    ],
+    "description": "Deploys the Siege Tank into Siege Mode, gaining increased range and area damage but losing the ability to move. Transformation takes approximately 3 seconds."
+  },
+  "UNSIEGE_UNSIEGE": {
+    "upgrade_name": "UNSIEGE_UNSIEGE",
+    "affected_units": [
+      "SiegeTank"
+    ],
+    "description": "Reverts the Siege Tank to Tank Mode, allowing it to move but reducing its range and removing splash damage. Transformation takes approximately 3 seconds."
+  },
+  "BEHAVIOR_CLOAKON_BANSHEE": {
+    "upgrade_name": "BEHAVIOR_CLOAKON_BANSHEE",
+    "affected_units": [
+      "Banshee"
+    ],
+    "description": "Enables the Banshee to become invisible to enemy units without detection. The ability drains energy over time while active."
+  },
+  "BEHAVIOR_CLOAKON_GHOST": {
+    "upgrade_name": "BEHAVIOR_CLOAKON_GHOST",
+    "affected_units": [
+      "Ghost"
+    ],
+    "description": "Allows the Ghost to become invisible to enemy units without detection. The ability consumes energy over time while active."
+  },
+  "EFFECT_GHOSTSNIPE": {
+    "upgrade_name": "EFFECT_GHOSTSNIPE",
+    "affected_units": [
+      "Ghost"
+    ],
+    "description": "Steady Targeting allows the Ghost to fire a sniper round after 1.43 seconds of aiming, dealing 130 (+40 vs Psionic) damage to biological units. Ignores armor."
+  },
+  "EMP_EMP": {
+    "upgrade_name": "EMP_EMP",
+    "affected_units": [
+      "Ghost"
+    ],
+    "description": "EMP Round removes up to 100 shields and energy from units in the target area. Also reveals cloaked and burrowed units."
+  },
+  "EFFECT_CHARGE": {
+    "upgrade_name": "EFFECT_CHARGE",
+    "affected_units": [
+      "Zealot"
+    ],
+    "description": "Charge allows Zealots to quickly close the distance to enemy units within range 4. Has a 7-second cooldown and significantly increases movement speed for 2.5 seconds."
+  },
+  "EFFECT_BLINK_STALKER": {
+    "upgrade_name": "EFFECT_BLINK_STALKER",
+    "affected_units": [
+      "Stalker"
+    ],
+    "description": "Blink allows Stalkers to instantly teleport to a nearby location within range 8 that is not obscured by fog of war. Has a 7-second cooldown."
+  },
+  "PSISTORM_PSISTORM": {
+    "upgrade_name": "PSISTORM_PSISTORM",
+    "affected_units": [
+      "HighTemplar"
+    ],
+    "description": "Psionic Storm creates a devastating area of effect spell that deals 80 damage over 2.85 seconds to all units in the target area. Costs 75 energy and has a range of 9."
+  },
+  "FEEDBACK_FEEDBACK": {
+    "upgrade_name": "FEEDBACK_FEEDBACK",
+    "affected_units": [
+      "HighTemplar"
+    ],
+    "description": "Feedback drains all energy from target unit and deals 0.5 damage per point of energy drained. Costs 50 energy and has a range of 10."
+  },
+  "MORPH_ARCHON": {
+    "upgrade_name": "MORPH_ARCHON",
+    "affected_units": [
+      "HighTemplar",
+      "DarkTemplar"
+    ],
+    "description": "Sacrifices 2 Templars to create an Archon. The transformation takes approximately 8.57 seconds."
+  },
+  "EFFECT_SHADOWSTRIDE": {
+    "upgrade_name": "EFFECT_SHADOWSTRIDE",
+    "affected_units": [
+      "DarkTemplar"
+    ],
+    "description": "Shadow Stride allows the Dark Templar to teleport to a nearby target location within range 8. Has a 14-second cooldown."
+  },
+  "FORCEFIELD_FORCEFIELD": {
+    "upgrade_name": "FORCEFIELD_FORCEFIELD",
+    "affected_units": [
+      "Sentry"
+    ],
+    "description": "Creates a barrier that lasts 11 seconds and impedes movement of ground units. Massive units will shatter Force Fields on contact. Costs 50 energy."
+  },
+  "GUARDIANSHIELD_GUARDIANSHIELD": {
+    "upgrade_name": "GUARDIANSHIELD_GUARDIANSHIELD",
+    "affected_units": [
+      "Sentry"
+    ],
+    "description": "Creates a range 4.5 aura that reduces incoming ranged damage to friendly units by 2. Lasts 12.86 seconds and costs 75 energy."
+  },
+  "HALLUCINATION_ZEALOT": {
+    "upgrade_name": "HALLUCINATION_ZEALOT",
+    "affected_units": [
+      "Sentry"
+    ],
+    "description": "Creates hallucinations of Zealots that cannot deal damage but can confuse enemies. Costs 75 energy."
+  },
+  "EFFECT_PURIFICATIONNOVA": {
+    "upgrade_name": "EFFECT_PURIFICATIONNOVA",
+    "affected_units": [
+      "Disruptor"
+    ],
+    "description": "Shoots out a ball of energy that detonates after 2.1 seconds, dealing 100 splash damage and an additional 100 shield damage to nearby ground units. Has a 21.4-second cooldown."
+  },
+  "GRAVITONBEAM_GRAVITONBEAM": {
+    "upgrade_name": "GRAVITONBEAM_GRAVITONBEAM",
+    "affected_units": [
+      "Phoenix"
+    ],
+    "description": "Makes the target unit float in the air for 7 seconds, disabling its abilities. Massive units are immune. Costs 50 energy and has range 4."
+  },
+  "ORACLEREVELATION_ORACLEREVELATION": {
+    "upgrade_name": "ORACLEREVELATION_ORACLEREVELATION",
+    "affected_units": [
+      "Oracle"
+    ],
+    "description": "Causes enemy units and structures within the target area to grant vision for 20 seconds. Reveals cloaked or burrowed units. Costs 25 energy."
+  },
+  "BUILD_STASISTRAP": {
+    "upgrade_name": "BUILD_STASISTRAP",
+    "affected_units": [
+      "Oracle"
+    ],
+    "description": "Places a cloaked Stasis Ward that traps nearby enemies in stasis for 21 seconds when activated. Trapped units cannot be attacked or affected by abilities."
+  },
+  "BEHAVIOR_PULSARBEAMON": {
+    "upgrade_name": "BEHAVIOR_PULSARBEAMON",
+    "affected_units": [
+      "Oracle"
+    ],
+    "description": "Charges the Oracle's Pulsar Beam, which does 15 (+7 vs Light) spell damage to ground units while active. Drains energy over time."
+  },
+  "EFFECT_VOIDRAYPRISMATICALIGNMENT": {
+    "upgrade_name": "EFFECT_VOIDRAYPRISMATICALIGNMENT",
+    "affected_units": [
+      "VoidRay"
+    ],
+    "description": "Realigns the Void Ray's Prismatic Beam to gain +6 damage vs armored units for 14.3 seconds. Movement speed is reduced by 25% while active."
+  },
+  "MORPH_WARPPRISMPHASINGMODE": {
+    "upgrade_name": "MORPH_WARPPRISMPHASINGMODE",
+    "affected_units": [
+      "WarpPrism"
+    ],
+    "description": "Transforms the Warp Prism to Phasing Mode, generating a power radius similar to a Pylon but preventing movement. Takes 2 seconds."
+  },
+  "MORPH_WARPPRISMTRANSPORTMODE": {
+    "upgrade_name": "MORPH_WARPPRISMTRANSPORTMODE",
+    "affected_units": [
+      "WarpPrism"
+    ],
+    "description": "Returns the Warp Prism to Transport Mode, allowing it to move and carry units but losing the power field. Takes 2 seconds."
+  },
+  "BUILD_INTERCEPTORS": {
+    "upgrade_name": "BUILD_INTERCEPTORS",
+    "affected_units": [
+      "Carrier"
+    ],
+    "description": "Builds up to 8 Interceptors that automatically attack the Carrier's target. Each Interceptor costs 15 minerals and takes 9 seconds to build."
+  },
+  "MOTHERSHIPCLOAK_ORACLECLOAKFIELD": {
+    "upgrade_name": "MOTHERSHIPCLOAK_ORACLECLOAKFIELD",
+    "affected_units": [
+      "Mothership"
+    ],
+    "description": "The Mothership cloaks all nearby units and buildings for 20 seconds. Has a 50-second cooldown and affects units within range 5."
+  },
+  "EFFECT_MASSRECALL_STRATEGICRECALL": {
+    "upgrade_name": "EFFECT_MASSRECALL_STRATEGICRECALL",
+    "affected_units": [
+      "Mothership"
+    ],
+    "description": "Recalls all player units in the target area to the Mothership. Has a large range and takes 4 seconds to complete."
+  },
+  "EFFECT_TIMEWARP": {
+    "upgrade_name": "EFFECT_TIMEWARP",
+    "affected_units": [
+      "Mothership"
+    ],
+    "description": "After a 1.79 second delay, warps spacetime within the target area for 7 seconds. Enemy units have attack and movement speeds reduced by 50%."
+  },
+  "MORPH_WARPGATE": {
+    "upgrade_name": "MORPH_WARPGATE",
+    "affected_units": [
+      "Gateway"
+    ],
+    "description": "Transforms the Gateway into a Warp Gate, allowing units to be warped in anywhere with power. Transformation takes 7 seconds."
+  },
+  "MORPH_GATEWAY": {
+    "upgrade_name": "MORPH_GATEWAY",
+    "affected_units": [
+      "WarpGate"
+    ],
+    "description": "Transforms the Warp Gate back into a Gateway for standard unit production. Takes 7 seconds to complete."
+  },
+  "EFFECT_CHRONOBOOSTENERGYCOST": {
+    "upgrade_name": "EFFECT_CHRONOBOOSTENERGYCOST",
+    "affected_units": [
+      "Nexus"
+    ],
+    "description": "Places target structure in a Chrono Boost, causing it to operate 50% faster for 20 seconds. Costs 50 energy."
+  },
+  "EFFECT_MASSRECALL_NEXUS": {
+    "upgrade_name": "EFFECT_MASSRECALL_NEXUS",
+    "affected_units": [
+      "Nexus"
+    ],
+    "description": "Recalls all units owned by the player in the target area to the Nexus. Has a 130-second cooldown and costs 50 energy."
+  },
+  "SHIELDBATTERYRECHARGEEX5_SHIELDBATTERYRECHARGE": {
+    "upgrade_name": "SHIELDBATTERYRECHARGEEX5_SHIELDBATTERYRECHARGE",
+    "affected_units": [
+      "ShieldBattery"
+    ],
+    "description": "Restores target unit or structure's shields at up to 50 shields per second. Every 3 shields restored drains 1 energy from the Battery."
+  },
+  "BURROWDOWN_ZERGLING": {
+    "upgrade_name": "BURROWDOWN_ZERGLING",
+    "affected_units": [
+      "Zergling"
+    ],
+    "description": "Buries the Zergling underground, making it invisible to enemies without detection. Burrowed units cannot move or attack but regenerate health faster."
+  },
+  "BURROWUP_ZERGLING": {
+    "upgrade_name": "BURROWUP_ZERGLING",
+    "affected_units": [
+      "Zergling"
+    ],
+    "description": "Returns the Zergling above ground to regain offensive capabilities. Takes 1-2 seconds to complete."
+  },
+  "MORPHTOBANELING_BANELING": {
+    "upgrade_name": "MORPHTOBANELING_BANELING",
+    "affected_units": [
+      "Zergling"
+    ],
+    "description": "Morphs a Zergling into a Baneling. Costs 25 minerals and 25 gas, takes 14 seconds. Requires a Baneling Nest."
+  },
+  "EXPLODE_EXPLODE": {
+    "upgrade_name": "EXPLODE_EXPLODE",
+    "affected_units": [
+      "Baneling"
+    ],
+    "description": "The Baneling detonates where it stands, dealing splash damage to nearby enemy units and structures in a 2.2 radius."
+  },
+  "BEHAVIOR_BUILDINGATTACKON": {
+    "upgrade_name": "BEHAVIOR_BUILDINGATTACKON",
+    "affected_units": [
+      "Baneling"
+    ],
+    "description": "Enables the Baneling to target buildings like any other unit, dealing 80 damage on contact."
+  },
+  "BURROWDOWN_ROACH": {
+    "upgrade_name": "BURROWDOWN_ROACH",
+    "affected_units": [
+      "Roach"
+    ],
+    "description": "Buries the Roach underground. While burrowed, the Roach regenerates health at 7 HP per second and is invisible to enemies without detection."
+  },
+  "BURROWUP_ROACH": {
+    "upgrade_name": "BURROWUP_ROACH",
+    "affected_units": [
+      "Roach"
+    ],
+    "description": "Returns the Roach above ground, regaining the ability to move and attack normally."
+  },
+  "MORPHTORAVAGER_RAVAGER": {
+    "upgrade_name": "MORPHTORAVAGER_RAVAGER",
+    "affected_units": [
+      "Roach"
+    ],
+    "description": "Morphs the Roach into a Ravager. Costs 25 minerals and 75 gas, takes 12.14 seconds and adds 1 supply."
+  },
+  "EFFECT_CORROSIVEBILE": {
+    "upgrade_name": "EFFECT_CORROSIVEBILE",
+    "affected_units": [
+      "Ravager"
+    ],
+    "description": "Launches a missile at the target location, dealing 60 damage to all units and destroying Force Fields in the area. Has a 7-second cooldown and range 9."
+  },
+  "BURROWDOWN_HYDRALISK": {
+    "upgrade_name": "BURROWDOWN_HYDRALISK",
+    "affected_units": [
+      "Hydralisk"
+    ],
+    "description": "Burrows the Hydralisk underground, making it invisible but unable to move or attack. Regenerates health faster while burrowed."
+  },
+  "BURROWUP_HYDRALISK": {
+    "upgrade_name": "BURROWUP_HYDRALISK",
+    "affected_units": [
+      "Hydralisk"
+    ],
+    "description": "Unburrows the Hydralisk, allowing it to move and attack again."
+  },
+  "HYDRALISKFRENZY_HYDRALISKFRENZY": {
+    "upgrade_name": "HYDRALISKFRENZY_HYDRALISKFRENZY",
+    "affected_units": [
+      "Hydralisk"
+    ],
+    "description": "Frenzy makes the Hydralisk immune to snare, stun, mind control, and movement altering effects permanently."
+  },
+  "MORPH_LURKER": {
+    "upgrade_name": "MORPH_LURKER",
+    "affected_units": [
+      "Hydralisk"
+    ],
+    "description": "Morphs the Hydralisk into a Lurker. Costs 50 minerals and 100 gas, takes 18.04 seconds. Requires a Lurker Den."
+  },
+  "BURROWDOWN_LURKER": {
+    "upgrade_name": "BURROWDOWN_LURKER",
+    "affected_units": [
+      "Lurker"
+    ],
+    "description": "Burrows the Lurker, enabling it to attack with its subterranean spines while remaining invisible to enemies without detection."
+  },
+  "BURROWUP_LURKER": {
+    "upgrade_name": "BURROWUP_LURKER",
+    "affected_units": [
+      "Lurker"
+    ],
+    "description": "Unburrows the Lurker, making it visible but unable to attack until it burrows again."
+  },
+  "BEHAVIOR_HOLDFIREON_LURKER": {
+    "upgrade_name": "BEHAVIOR_HOLDFIREON_LURKER",
+    "affected_units": [
+      "Lurker"
+    ],
+    "description": "Toggles the Lurker's attack behavior, allowing it to hold fire even when enemies are in range."
+  },
+  "BURROWDOWN_INFESTOR": {
+    "upgrade_name": "BURROWDOWN_INFESTOR",
+    "affected_units": [
+      "Infestor"
+    ],
+    "description": "Burrows the Infestor underground, making it invisible and allowing it to regenerate energy faster."
+  },
+  "BURROWUP_INFESTOR": {
+    "upgrade_name": "BURROWUP_INFESTOR",
+    "affected_units": [
+      "Infestor"
+    ],
+    "description": "Unburrows the Infestor, allowing it to move normally above ground."
+  },
+  "NEURALPARASITE_NEURALPARASITE": {
+    "upgrade_name": "NEURALPARASITE_NEURALPARASITE",
+    "affected_units": [
+      "Infestor"
+    ],
+    "description": "Temporarily takes control of target enemy unit for 11 seconds. Costs 100 energy and has range 8, extending to 14 while channeling."
+  },
+  "FUNGALGROWTH_FUNGALGROWTH": {
+    "upgrade_name": "FUNGALGROWTH_FUNGALGROWTH",
+    "affected_units": [
+      "Infestor"
+    ],
+    "description": "Target units take 25 damage over 3 seconds and have movement speed reduced by 75%. Reveals cloaked units and prevents Blink/Tactical Jump."
+  },
+  "AMORPHOUSARMORCLOUD_AMORPHOUSARMORCLOUD": {
+    "upgrade_name": "AMORPHOUSARMORCLOUD_AMORPHOUSARMORCLOUD",
+    "affected_units": [
+      "Infestor"
+    ],
+    "description": "Creates a shroud that reduces damage taken from air units by 50% for ground units underneath. Lasts 11 seconds."
+  },
+  "BURROWDOWN_ULTRALISK": {
+    "upgrade_name": "BURROWDOWN_ULTRALISK",
+    "affected_units": [
+      "Ultralisk"
+    ],
+    "description": "Burrows the Ultralisk underground, making it invisible but unable to move or attack. Regenerates health faster while burrowed."
+  },
+  "BURROWUP_ULTRALISK": {
+    "upgrade_name": "BURROWUP_ULTRALISK",
+    "affected_units": [
+      "Ultralisk"
+    ],
+    "description": "Unburrows the Ultralisk, allowing it to move and attack normally."
+  },
+  "EFFECT_INJECTLARVA": {
+    "upgrade_name": "EFFECT_INJECTLARVA",
+    "affected_units": [
+      "Queen"
+    ],
+    "description": "Injects 3 Larva eggs into a Hatchery which hatch after 29 seconds. Costs 25 energy and has a 1.8-second cooldown."
+  },
+  "BUILD_CREEPTUMOR": {
+    "upgrade_name": "BUILD_CREEPTUMOR",
+    "affected_units": [
+      "Queen"
+    ],
+    "description": "Places a Creep Tumor at the targeted location. The tumor generates Creep and can spawn one other tumor within range 10."
+  },
+  "TRANSFUSION_TRANSFUSION": {
+    "upgrade_name": "TRANSFUSION_TRANSFUSION",
+    "affected_units": [
+      "Queen"
+    ],
+    "description": "Instantly heals a target biological unit for 75 health, with an additional 50 health regenerating over 7 seconds. Can only be used on Creep."
+  },
+  "BURROWDOWN_QUEEN": {
+    "upgrade_name": "BURROWDOWN_QUEEN",
+    "affected_units": [
+      "Queen"
+    ],
+    "description": "Burrows the Queen underground, making it invisible and allowing faster health regeneration."
+  },
+  "BURROWUP_QUEEN": {
+    "upgrade_name": "BURROWUP_QUEEN",
+    "affected_units": [
+      "Queen"
+    ],
+    "description": "Unburrows the Queen, allowing it to move and use abilities normally."
+  },
+  "MORPH_OVERLORDTRANSPORT": {
+    "upgrade_name": "MORPH_OVERLORDTRANSPORT",
+    "affected_units": [
+      "Overlord"
+    ],
+    "description": "Enables the Overlord to transport units with a cargo space of 8. Costs 25 minerals and 25 gas, takes 15 seconds. Requires a Lair."
+  },
+  "MORPH_OVERSEER": {
+    "upgrade_name": "MORPH_OVERSEER",
+    "affected_units": [
+      "Overlord"
+    ],
+    "description": "Morphs the Overlord into an Overseer, gaining detection abilities. Costs 50 minerals and 50 gas, takes 12 seconds. Requires a Lair."
+  },
+  "BEHAVIOR_GENERATECREEPON": {
+    "upgrade_name": "BEHAVIOR_GENERATECREEPON",
+    "affected_units": [
+      "Overlord"
+    ],
+    "description": "Makes the Overlord generate Creep when stationary, expanding the Zerg's territory and providing movement bonuses to Zerg units."
+  },
+  "SPAWNCHANGELING_SPAWNCHANGELING": {
+    "upgrade_name": "SPAWNCHANGELING_SPAWNCHANGELING",
+    "affected_units": [
+      "Overseer"
+    ],
+    "description": "Spawns a Changeling that can disguise itself as enemy units for scouting. Costs 50 energy and lasts 107 seconds."
+  },
+  "CONTAMINATE_CONTAMINATE": {
+    "upgrade_name": "CONTAMINATE_CONTAMINATE",
+    "affected_units": [
+      "Overseer"
+    ],
+    "description": "Covers an enemy structure in slime, preventing it from training units or researching upgrades for 21 seconds. Costs 125 energy."
+  },
+  "MORPH_OVERSIGHTMODE": {
+    "upgrade_name": "MORPH_OVERSIGHTMODE",
+    "affected_units": [
+      "Overseer"
+    ],
+    "description": "Grants the Overseer 25% wider vision but removes its ability to move. Can be canceled after activation."
+  },
+  "MORPH_OVERSEERMODE": {
+    "upgrade_name": "MORPH_OVERSEERMODE",
+    "affected_units": [
+      "Overseer"
+    ],
+    "description": "Restores the Overseer's ability to move and returns its vision to normal radius."
+  },
+  "MORPHTOBROODLORD_BROODLORD": {
+    "upgrade_name": "MORPHTOBROODLORD_BROODLORD",
+    "affected_units": [
+      "Corruptor"
+    ],
+    "description": "Morphs the Corruptor into a Brood Lord. Costs 150 minerals and 150 gas, takes 24.17 seconds. Requires a Greater Spire."
+  },
+  "CAUSTICSPRAY_CAUSTICSPRAY": {
+    "upgrade_name": "CAUSTICSPRAY_CAUSTICSPRAY",
+    "affected_units": [
+      "Corruptor"
+    ],
+    "description": "Channels acid that deals 7 damage per second initially, increasing to 35 damage per second. Can only target structures."
+  },
+  "BLINDINGCLOUD_BLINDINGCLOUD": {
+    "upgrade_name": "BLINDINGCLOUD_BLINDINGCLOUD",
+    "affected_units": [
+      "Viper"
+    ],
+    "description": "Creates a cloud for 5.71 seconds that reduces attack range of ground units underneath to melee range. Costs 100 energy."
+  },
+  "EFFECT_ABDUCT": {
+    "upgrade_name": "EFFECT_ABDUCT",
+    "affected_units": [
+      "Viper"
+    ],
+    "description": "Pulls a target unit to the location of the Viper. Costs 75 energy and has range 9."
+  },
+  "PARASITICBOMB_PARASITICBOMB": {
+    "upgrade_name": "PARASITICBOMB_PARASITICBOMB",
+    "affected_units": [
+      "Viper"
+    ],
+    "description": "Creates a parasitic cloud that deals 120 damage over 7 seconds to the target and nearby air units. Costs 125 energy."
+  },
+  "VIPERCONSUMESTRUCTURE_VIPERCONSUME": {
+    "upgrade_name": "VIPERCONSUMESTRUCTURE_VIPERCONSUME",
+    "affected_units": [
+      "Viper"
+    ],
+    "description": "Consumes 150 life from a friendly structure over 14 seconds, converting the damage into 50 energy. Has a 1-second cooldown."
+  },
+  "EFFECT_SPAWNLOCUSTS": {
+    "upgrade_name": "EFFECT_SPAWNLOCUSTS",
+    "affected_units": [
+      "SwarmHost"
+    ],
+    "description": "Spawns 2 Locusts with 18-second timed life. Has a 43-second cooldown and can be used while burrowed."
+  },
+  "BURROWDOWN_SWARMHOST": {
+    "upgrade_name": "BURROWDOWN_SWARMHOST",
+    "affected_units": [
+      "SwarmHost"
+    ],
+    "description": "Burrows the Swarm Host underground, making it invisible and allowing it to spawn Locusts."
+  },
+  "EFFECT_LOCUSTSWOOP": {
+    "upgrade_name": "EFFECT_LOCUSTSWOOP",
+    "affected_units": [
+      "Locust"
+    ],
+    "description": "Orders the Locust to land at the targeted location, allowing it to attack ground units. Has range 6."
+  },
+  "SPINECRAWLERUPROOT_SPINECRAWLERUPROOT": {
+    "upgrade_name": "SPINECRAWLERUPROOT_SPINECRAWLERUPROOT",
+    "affected_units": [
+      "SpineCrawler"
+    ],
+    "description": "Allows the Spine Crawler to uproot and move to a new location. While uprooted, it has speed 1.4 off creep and 3.5 on creep."
+  },
+  "SPINECRAWLERROOT_SPINECRAWLERROOT": {
+    "upgrade_name": "SPINECRAWLERROOT_SPINECRAWLERROOT",
+    "affected_units": [
+      "SpineCrawler"
+    ],
+    "description": "Roots the Spine Crawler to the ground, gaining attack ability. Can only be performed on Creep. Takes 12 seconds."
+  },
+  "SPORECRAWLERUPROOT_SPORECRAWLERUPROOT": {
+    "upgrade_name": "SPORECRAWLERUPROOT_SPORECRAWLERUPROOT",
+    "affected_units": [
+      "SporeCrawler"
+    ],
+    "description": "Allows the Spore Crawler to uproot and move. While uprooted, it loses detection ability but can relocate."
+  },
+  "SPORECRAWLERROOT_SPORECRAWLERROOT": {
+    "upgrade_name": "SPORECRAWLERROOT_SPORECRAWLERROOT",
+    "affected_units": [
+      "SporeCrawler"
+    ],
+    "description": "Roots the Spore Crawler to the ground, gaining attack and detection abilities. Can only be performed on Creep. Takes 6 seconds."
+  },
+  "BUILD_NYDUSWORM": {
+    "upgrade_name": "BUILD_NYDUSWORM",
+    "affected_units": [
+      "NydusNetwork"
+    ],
+    "description": "Creates a Nydus Worm at the target location, allowing units to travel through the underground network."
+  },
+  "KD8CHARGE_KD8CHARGE": {
+    "upgrade_name": "KD8CHARGE_KD8CHARGE",
+    "affected_units": [
+      "Reaper"
+    ],
+    "description": "Explodes after a short delay, dealing 5 damage and knocking back nearby units in a radius of 2. Has a 14-second cooldown."
+  },
+  "EFFECT_REPAIR_SCV": {
+    "upgrade_name": "EFFECT_REPAIR_SCV",
+    "affected_units": [
+      "SCV"
+    ],
+    "description": "SCVs can repair friendly mechanical units and Terran buildings, restoring health at the cost of minerals and gas."
+  },
+  "MORPH_HELLBAT": {
+    "upgrade_name": "MORPH_HELLBAT",
+    "affected_units": [
+      "Hellion"
+    ],
+    "description": "Transforms the Hellion into Hellbat form, becoming a ground melee unit. Requires an Armory and takes 2.86-3.04 seconds."
+  },
+  "MORPH_HELLION": {
+    "upgrade_name": "MORPH_HELLION",
+    "affected_units": [
+      "Hellbat"
+    ],
+    "description": "Transforms the Hellbat back into Hellion form, becoming a fast ranged unit. Takes 2.86-3.04 seconds."
+  },
+  "BURROWDOWN_WIDOWMINE": {
+    "upgrade_name": "BURROWDOWN_WIDOWMINE",
+    "affected_units": [
+      "WidowMine"
+    ],
+    "description": "Burrows the Widow Mine and activates its weapon. Cannot move while burrowed but can attack nearby units."
+  },
+  "BURROWUP_WIDOWMINE": {
+    "upgrade_name": "BURROWUP_WIDOWMINE",
+    "affected_units": [
+      "WidowMine"
+    ],
+    "description": "Unburrows the Widow Mine, allowing it to move but deactivating its weapon."
+  },
+  "WIDOWMINEATTACK_WIDOWMINEATTACK": {
+    "upgrade_name": "WIDOWMINEATTACK_WIDOWMINEATTACK",
+    "affected_units": [
+      "WidowMine"
+    ],
+    "description": "Fires missiles at nearby enemy units when burrowed, dealing 125 (+35 vs shields) damage to primary target and splash damage to nearby units."
+  },
+  "LOCKON_LOCKON": {
+    "upgrade_name": "LOCKON_LOCKON",
+    "affected_units": [
+      "Cyclone"
+    ],
+    "description": "Locks weapons on target unit, increasing range to 15 and allowing movement while firing. Lasts 14.28 seconds with a 2.86-second cooldown."
+  },
+  "MORPH_THORHIGHIMPACTMODE": {
+    "upgrade_name": "MORPH_THORHIGHIMPACTMODE",
+    "affected_units": [
+      "Thor"
+    ],
+    "description": "Activates High Impact Payload mode, using 250mm Punisher Cannons against air targets for heavy single-target damage."
+  },
+  "MORPH_THOREXPLOSIVEMODE": {
+    "upgrade_name": "MORPH_THOREXPLOSIVEMODE",
+    "affected_units": [
+      "Thor"
+    ],
+    "description": "Arms Explosive Payload mode, using Javelin missiles that deal splash damage to air units and bonus damage to Light units."
+  },
+  "MORPH_VIKINGASSAULTMODE": {
+    "upgrade_name": "MORPH_VIKINGASSAULTMODE",
+    "affected_units": [
+      "Viking"
+    ],
+    "description": "Transforms the Viking into Assault Mode, becoming a ground unit with ground attack capabilities. Takes 1.67-2.03 seconds."
+  },
+  "MORPH_VIKINGFIGHTERMODE": {
+    "upgrade_name": "MORPH_VIKINGFIGHTERMODE",
+    "affected_units": [
+      "Viking"
+    ],
+    "description": "Transforms the Viking into Fighter Mode, becoming an air unit with anti-air attack. Takes 1.67-2.02 seconds."
+  },
+  "MORPH_LIBERATORAGMODE": {
+    "upgrade_name": "MORPH_LIBERATORAGMODE",
+    "affected_units": [
+      "Liberator"
+    ],
+    "description": "Deploys into Defender Mode, gaining ability to attack ground units with increased range but losing mobility. Takes 2.89 seconds."
+  },
+  "MORPH_LIBERATORAAMODE": {
+    "upgrade_name": "MORPH_LIBERATORAAMODE",
+    "affected_units": [
+      "Liberator"
+    ],
+    "description": "Reverts to Fighter Mode, regaining mobility and air-to-air attack but losing ground attack capability. Takes 1.46 seconds."
+  },
+  "MEDIVACHEAL_HEAL": {
+    "upgrade_name": "MEDIVACHEAL_HEAL",
+    "affected_units": [
+      "Medivac"
+    ],
+    "description": "Automatically heals nearby friendly biological units. Consumes 1 energy per 4 HP healed and has range 4."
+  },
+  "EFFECT_MEDIVACIGNITEAFTERBURNERS": {
+    "upgrade_name": "EFFECT_MEDIVACIGNITEAFTERBURNERS",
+    "affected_units": [
+      "Medivac"
+    ],
+    "description": "Speed boost that increases movement speed to 5.95 and acceleration to 1400 for 4.3 seconds. Has a 14-second cooldown."
+  },
+  "BUILDAUTOTURRET_AUTOTURRET": {
+    "upgrade_name": "BUILDAUTOTURRET_AUTOTURRET",
+    "affected_units": [
+      "Raven"
+    ],
+    "description": "Drops an Auto-Turret at the target location that lasts 7.9 seconds and attacks nearby enemies. Costs 50 energy."
+  },
+  "EFFECT_ANTIARMORMISSILE": {
+    "upgrade_name": "EFFECT_ANTIARMORMISSILE",
+    "affected_units": [
+      "Raven"
+    ],
+    "description": "Deploys a missile that reduces armor and shield armor of affected units by 2 for 21 seconds. Costs 75 energy."
+  },
+  "EFFECT_INTERFERENCEMATRIX": {
+    "upgrade_name": "EFFECT_INTERFERENCEMATRIX",
+    "affected_units": [
+      "Raven"
+    ],
+    "description": "Disables a target unit, preventing it from attacking or using abilities for 11 seconds. Can only target mechanical and psionic units."
+  },
+  "EFFECT_TACTICALJUMP": {
+    "upgrade_name": "EFFECT_TACTICALJUMP",
+    "affected_units": [
+      "battlecruiser"
+    ],
+    "description": "After 4 seconds, warps to the target location. Battlecruiser is invincible while warping but vulnerable for 1 second before teleporting."
+  },
+  "YAMATO_YAMATOGUN": {
+    "upgrade_name": "YAMATO_YAMATOGUN",
+    "affected_units": [
+      "battlecruiser"
+    ],
+    "description": "Blasts a target with a devastating plasma cannon after 2 seconds, causing 240 damage. Has a 71-second cooldown."
+  },
+  "CALLDOWNMULE_CALLDOWNMULE": {
+    "upgrade_name": "CALLDOWNMULE_CALLDOWNMULE",
+    "affected_units": [
+      "OrbitalCommand"
+    ],
+    "description": "Calls down a MULE that gathers minerals faster than SCVs and lasts for 64 seconds. Costs 50 energy."
+  },
+  "SCANNERSWEEP_SCAN": {
+    "upgrade_name": "SCANNERSWEEP_SCAN",
+    "affected_units": [
+      "OrbitalCommand"
+    ],
+    "description": "Scans a target location revealing cloaked, burrowed or hallucinated units for 9 seconds. Costs 50 energy."
+  },
+  "SUPPLYDROP_SUPPLYDROP": {
+    "upgrade_name": "SUPPLYDROP_SUPPLYDROP",
+    "affected_units": [
+      "OrbitalCommand"
+    ],
+    "description": "Calls down additional supplies that permanently increase a Supply Depot's supply by 8 and health to 500. Costs 50 energy."
+  },
+  "MORPH_SUPPLYDEPOT_LOWER": {
+    "upgrade_name": "MORPH_SUPPLYDEPOT_LOWER",
+    "affected_units": [
+      "SupplyDepot"
+    ],
+    "description": "Lowers the Supply Depot, allowing ground units to move across it. Takes 1 second."
+  },
+  "MORPH_SUPPLYDEPOT_RAISE": {
+    "upgrade_name": "MORPH_SUPPLYDEPOT_RAISE",
+    "affected_units": [
+      "SupplyDepot"
+    ],
+    "description": "Raises the Supply Depot, blocking ground unit movement. Takes 1 second."
+  },
+  "SALVAGEEFFECT_SALVAGE": {
+    "upgrade_name": "SALVAGEEFFECT_SALVAGE",
+    "affected_units": [
+      "Bunker",
+      "SensorTower"
+    ],
+    "description": "Destroys the building and returns 75% of its cost. Cannot be cancelled once activated. Takes 4 seconds."
+  },
+  "LIFT_COMMANDCENTER": {
+    "upgrade_name": "LIFT_COMMANDCENTER",
+    "affected_units": [
+      "CommandCenter"
+    ],
+    "description": "Lifts off the Command Center, making it airborne and mobile. Takes 1 second."
+  },
+  "LAND_COMMANDCENTER": {
+    "upgrade_name": "LAND_COMMANDCENTER",
+    "affected_units": [
+      "CommandCenter"
+    ],
+    "description": "Lands the Command Center at the target location. Takes 2 seconds."
+  },
+  "UPGRADETOORBITAL_ORBITALCOMMAND": {
+    "upgrade_name": "UPGRADETOORBITAL_ORBITALCOMMAND",
+    "affected_units": [
+      "CommandCenter"
+    ],
+    "description": "Upgrades the Command Center to an Orbital Command, gaining energy-based abilities. Requires a Barracks."
+  },
+  "UPGRADETOPLANETARYFORTRESS_PLANETARYFORTRESS": {
+    "upgrade_name": "UPGRADETOPLANETARYFORTRESS_PLANETARYFORTRESS",
+    "affected_units": [
+      "CommandCenter"
+    ],
+    "description": "Upgrades to a Planetary Fortress, gaining attack capability but losing the ability to lift off. Requires an Engineering Bay."
+  }
+}

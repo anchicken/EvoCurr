@@ -1,0 +1,67 @@
+{
+    "Type": "Ground Unit",
+    "Description": "The Thor is a Massive Terran walking gun battery with a strong single-target ground weapon and two long-range anti-air weapons. It is the unit with the highest health, highest armor, slowest movement speed and largest collision size in the Terran ground unit arsenal. After finishing an Armory, Thors can be built from a Factory with a Tech Lab.On paper the Thor's ground weapon has the highest DPS value in the game. However, due to the relatively low attack speed it suffers from significant overkill when attacking low-health units like Marines, Zerglings or workers. When adjusting for resource costs the Thor's DPS value is not remarkable.The two anti-air weapons serve different purposes: one has a small area of effect (Explosive Payload) and one deals high single-target damage (High Impact Payload). Both attacks have exceptional range, 10 for Explosive Payload and 11 (as of Patch 4.8.2; was formerly 10) for High Impact Payload, offsetting the mismatch in movement speeds between a Thor and a typical air unit",
+    "Requirements": "Armory",
+    "Cost": {
+        "mineral": 300,
+        "vespene": 200,
+        "game_time": 43,
+        "supply": 6
+    },
+    "Hotkey": "T",
+    "Attack": {
+        "Targets": "Ground / Air / Air",
+        "Damage": "30 (+3) (x2) / 6 (+1) (x4) (Splash) / 25 (+3)",
+        "DPS": "65.9 (+6.59) / 11.2 (+1.87) / 27.5 (+3.3)",
+        "Cooldown": "0.91 / 2.14 / 0.91",
+        "Bonus": "Not Found / +6 (+1) vs Light / +10 (+1) vs Massive",
+        "Bonus DPS": "Not Found / +11.2 (+1.87) vs Light / +11.0 (+1.1) vs Massive",
+        "Range": "7 / 10 / 11"
+    },
+    "Unit stats": {
+        "Defense": "400  1 (+1)",
+        "Attributes": "Armored, Mechanical, Massive",
+        "Sight": "11",
+        "Speed": "2.62",
+        "Cargo size": "Not Found"
+    },
+    "Strong against": [
+        "Marine",
+        "Mutalisk",
+        "Stalker"
+    ],
+    "Weak against": [
+        "Marauder",
+        "Zergling",
+        "Immortal"
+    ],
+    "Ability": [
+        {
+            "Name": "High Impact Payload",
+            "Hotkey": "E",
+            "Description": "Activates the Thor's 250mm Punisher Cannons, which strike a single air target for heavy damage."
+        },
+        {
+            "Name": "Explosive Payload",
+            "Hotkey": "D",
+            "Description": "Arms the Thor's Javelin missile launchers, which deal splash damage to nearby air units and additional damage to Light units."
+        }
+    ],
+    "Upgrade": {
+        "Name": "Smart Servos",
+        "Details": [
+            "100",
+            "100",
+            "79",
+            "Hotkey: S",
+            "Researched from: Tech Lab"
+        ],
+        "Description": "Allows Hellions, Hellbats, Vikings, and Thors to transform quickly between combat modes."
+    },
+    "Competitive Usage": {
+        "General": "he Thor's high health and ability to be repaired by SCVs make Thors difficult to kill. Like the Marauder Thors serve as an anchor on the battlefield for fast but low health units, which can retreat behind these anchors to avoid splash damage or sniping tactics.The Thor is primarily used as an anti-Mutalisk unit for its +Light splash damage. With its Explosive Payload anti-air attack, it outranges the opponent to spread their air units or suffer large amounts of splash damage. One of the advantages of flying units is that they have no unit collision, and can stack on top of each other for maximum DPS density and forcing the opponent to spread out their air units manually before engaging (called Magic Boxing).In contrast with the aerial mobility and anti-ground damage of Liberators, which are better suited to the drop harassment style of Terran Bio and Medivacs. Thors are better suited to the hold the line/range advantage given by Siege Tanks and Cyclones; can also be made in a pinch (even without any upgrades) to support Vikings or Ghosts to engage Broodlords, Disruptors, or any other Capital Ships directly with High Impact Payload and high health tankiness.A increasingly common strategy for terrans is Double Thor Drop play, where the mech terran opts for two Medivacs and two Thors to harass with in the mid game. This offsets the normally immobile Thor at the expense of the Medivacs fragility. It is capable of sniping tech structures and bases (particularly against greedy Zergs).",
+        "Vs. Protoss": "Thors have begun seeing more and more use against Protoss, particularly by Swedish Pro Gamer ThorZaIN, who used Thors to great effect as a staple unit against NonY. All-ins featuring the Thor with SCV repairs are fairly strong. Late game vs Protoss, however, it becomes difficult to find good engagements with mass Thors. The Thors have a tendency to clump up in chokes, and the Immortal's smaller size allows it to quickly form a better concave, the immediate burst damage of the Immortal will tear through the front Thors. Therefore, if a Terran player is using Thors as a staple unit, they are advised to supplement with Ghosts to EMP the entire Protoss army, and then attack using the Thor to finish the Protoss army.With the removal of its energy-based ability and it no longer having energy, the Thor is slightly more viable against Protoss due to it no longer being a target for High Templar's Feedback ability. In addition, the Immortal's Barrier ability no longer reduces all damage to 10, which was a major point against Thors in TvP previously.",
+        "Vs. Terran": "Thors can play an important role in TvT, as they both complement your own tank force while drawing fire from the opponent's Tanks. Because Thors are so large, they effectively reduce the splash damage from the opponent's Tanks, while easily focus firing them down. Thors can provide anti-air support for Tanks in case of a Banshee transition. Thors struggle with Bio units, especially the Marauder. In this case, Marines and Hellions can complement the Thor. In low numbers Thors as late game units, even with High Impact Payload, suffer against Battlecruisers, which can 2-shot them with Yamato Cannon and then jump away.",
+        "Vs. Zerg": "The sheer range of the Thor's splash and bonus damage against light air units like Mutalisk or single Armored targets in the air, like Capital Ships and Broodlords, to gain back air control with Vikings if you have economy or Ghosts if you have the time to gain the energy. Proper control of Mutalisks (Moving them over the Thor rather than using attack-move or right clickling the Thor to prevent them from bunching up as they fly in) can greatly reduce the splash damage Thors can do to Mutalisks."
+    }
+}

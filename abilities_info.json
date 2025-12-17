@@ -1,0 +1,152 @@
+{
+  "player1_abilities": [
+    "Stimpack",
+    "Stimpack",
+    "Heal",
+    "SiegeMode",
+    "PersonalCloaking",
+    "Snipe",
+    "EMP",
+    "AssaultMode",
+    "LockOn",
+    "Burrow",
+    "AutoTurret",
+    "InterferenceMatrix",
+    "HunterSeeker",
+    "DefenderMode"
+  ],
+  "player2_abilities": [
+    "Charge",
+    "Blink",
+    "PsionicStorm",
+    "Feedback",
+    "ForceField",
+    "GuardianShield",
+    "ExtendedThermalLance",
+    "GravitySling",
+    "PurificationNova",
+    "InterceptorLaunch"
+  ],
+  "all_abilities": [
+    {
+      "ability": "Stimpack",
+      "player1": true,
+      "player2": false
+    },
+    {
+      "ability": "Stimpack",
+      "player1": true,
+      "player2": false
+    },
+    {
+      "ability": "Heal",
+      "player1": true,
+      "player2": false
+    },
+    {
+      "ability": "SiegeMode",
+      "player1": true,
+      "player2": false
+    },
+    {
+      "ability": "PersonalCloaking",
+      "player1": true,
+      "player2": false
+    },
+    {
+      "ability": "Snipe",
+      "player1": true,
+      "player2": false
+    },
+    {
+      "ability": "EMP",
+      "player1": true,
+      "player2": false
+    },
+    {
+      "ability": "AssaultMode",
+      "player1": true,
+      "player2": false
+    },
+    {
+      "ability": "LockOn",
+      "player1": true,
+      "player2": false
+    },
+    {
+      "ability": "Burrow",
+      "player1": true,
+      "player2": false
+    },
+    {
+      "ability": "AutoTurret",
+      "player1": true,
+      "player2": false
+    },
+    {
+      "ability": "InterferenceMatrix",
+      "player1": true,
+      "player2": false
+    },
+    {
+      "ability": "HunterSeeker",
+      "player1": true,
+      "player2": false
+    },
+    {
+      "ability": "DefenderMode",
+      "player1": true,
+      "player2": false
+    },
+    {
+      "ability": "Charge",
+      "player1": false,
+      "player2": true
+    },
+    {
+      "ability": "Blink",
+      "player1": false,
+      "player2": true
+    },
+    {
+      "ability": "PsionicStorm",
+      "player1": false,
+      "player2": true
+    },
+    {
+      "ability": "Feedback",
+      "player1": false,
+      "player2": true
+    },
+    {
+      "ability": "ForceField",
+      "player1": false,
+      "player2": true
+    },
+    {
+      "ability": "GuardianShield",
+      "player1": false,
+      "player2": true
+    },
+    {
+      "ability": "ExtendedThermalLance",
+      "player1": false,
+      "player2": true
+    },
+    {
+      "ability": "GravitySling",
+      "player1": false,
+      "player2": true
+    },
+    {
+      "ability": "PurificationNova",
+      "player1": false,
+      "player2": true
+    },
+    {
+      "ability": "InterceptorLaunch",
+      "player1": false,
+      "player2": true
+    }
+  ]
+}

@@ -1,0 +1,1223 @@
+{
+  "TerranInfantryWeapons": {
+    "upgrade_name": "TerranInfantryWeapons",
+    "affected_units": [
+      "Marine",
+      "Marauder",
+      "Ghost",
+      "Reaper",
+      "SCV"
+    ],
+    "description": "Increases attack damage of Terran infantry units"
+  },
+  "TerranInfantryArmors": {
+    "upgrade_name": "TerranInfantryArmors",
+    "affected_units": [
+      "Marine",
+      "Marauder",
+      "Ghost",
+      "Reaper",
+      "SCV"
+    ],
+    "description": "Increases armor of Terran infantry units"
+  },
+  "TerranVehicleWeapons": {
+    "upgrade_name": "TerranVehicleWeapons",
+    "affected_units": [
+      "Hellion",
+      "Hellbat",
+      "SiegeTank",
+      "Thor",
+      "Cyclone",
+      "WidowMine"
+    ],
+    "description": "Increases attack damage of Terran vehicle units"
+  },
+  "TerranVehicleArmors": {
+    "upgrade_name": "TerranVehicleArmors",
+    "affected_units": [
+      "Hellion",
+      "Hellbat",
+      "SiegeTank",
+      "Thor",
+      "Cyclone",
+      "WidowMine"
+    ],
+    "description": "Increases armor of Terran vehicle units"
+  },
+  "TerranShipWeapons": {
+    "upgrade_name": "TerranShipWeapons",
+    "affected_units": [
+      "Viking",
+      "Medivac",
+      "Liberator",
+      "Banshee",
+      "Raven",
+      "Battlecruiser"
+    ],
+    "description": "Increases attack damage of Terran air units"
+  },
+  "TerranShipArmors": {
+    "upgrade_name": "TerranShipArmors",
+    "affected_units": [
+      "Viking",
+      "Medivac",
+      "Liberator",
+      "Banshee",
+      "Raven",
+      "Battlecruiser"
+    ],
+    "description": "Increases armor of Terran air units"
+  },
+  "ProtossGroundArmors": {
+    "upgrade_name": "ProtossGroundArmors",
+    "affected_units": [
+      "Zealot",
+      "Stalker",
+      "Adept",
+      "HighTemplar",
+      "DarkTemplar",
+      "Archon",
+      "Immortal",
+      "Colossus",
+      "Disruptor",
+      "Probe"
+    ],
+    "description": "Increases armor of Protoss ground units"
+  },
+  "ProtossGroundWeapons": {
+    "upgrade_name": "ProtossGroundWeapons",
+    "affected_units": [
+      "Zealot",
+      "Stalker",
+      "Adept",
+      "HighTemplar",
+      "DarkTemplar",
+      "Archon",
+      "Immortal",
+      "Colossus",
+      "Disruptor",
+      "Probe"
+    ],
+    "description": "Increases attack damage of Protoss ground units"
+  },
+  "ProtossShields": {
+    "upgrade_name": "ProtossShields",
+    "affected_units": [
+      "Zealot",
+      "Stalker",
+      "Adept",
+      "HighTemplar",
+      "DarkTemplar",
+      "Archon",
+      "Immortal",
+      "Colossus",
+      "Disruptor",
+      "Phoenix",
+      "VoidRay",
+      "Oracle",
+      "Tempest",
+      "Carrier",
+      "Mothership",
+      "Probe",
+      "Observer",
+      "WarpPrism"
+    ],
+    "description": "Increases shield armor of all Protoss units"
+  },
+  "ProtossAirArmors": {
+    "upgrade_name": "ProtossAirArmors",
+    "affected_units": [
+      "Phoenix",
+      "VoidRay",
+      "Oracle",
+      "Tempest",
+      "Carrier",
+      "Mothership",
+      "Observer",
+      "WarpPrism"
+    ],
+    "description": "Increases armor of Protoss air units"
+  },
+  "ProtossAirWeapons": {
+    "upgrade_name": "ProtossAirWeapons",
+    "affected_units": [
+      "Phoenix",
+      "VoidRay",
+      "Oracle",
+      "Tempest",
+      "Carrier",
+      "Mothership"
+    ],
+    "description": "Increases attack damage of Protoss air units"
+  },
+  "ZergMeleeWeapons": {
+    "upgrade_name": "ZergMeleeWeapons",
+    "affected_units": [
+      "Zergling",
+      "Baneling",
+      "Ultralisk",
+      "Drone"
+    ],
+    "description": "Increases attack damage of Zerg melee units"
+  },
+  "ZergMissileWeapons": {
+    "upgrade_name": "ZergMissileWeapons",
+    "affected_units": [
+      "Hydralisk",
+      "Lurker",
+      "Roach",
+      "Ravager",
+      "Queen"
+    ],
+    "description": "Increases attack damage of Zerg ranged units"
+  },
+  "ZergGroundArmors": {
+    "upgrade_name": "ZergGroundArmors",
+    "affected_units": [
+      "Zergling",
+      "Baneling",
+      "Roach",
+      "Ravager",
+      "Hydralisk",
+      "Lurker",
+      "Infestor",
+      "SwarmHost",
+      "Ultralisk",
+      "Drone",
+      "Queen"
+    ],
+    "description": "Increases armor of Zerg ground units"
+  },
+  "ZergFlyerArmors": {
+    "upgrade_name": "ZergFlyerArmors",
+    "affected_units": [
+      "Mutalisk",
+      "Corruptor",
+      "BroodLord",
+      "Viper",
+      "Overlord",
+      "Overseer"
+    ],
+    "description": "Increases armor of Zerg air units"
+  },
+  "ZergFlyerWeapons": {
+    "upgrade_name": "ZergFlyerWeapons",
+    "affected_units": [
+      "Mutalisk",
+      "Corruptor",
+      "BroodLord",
+      "Viper"
+    ],
+    "description": "Increases attack damage of Zerg air units"
+  },
+  "CollectionSkinDeluxe": {
+    "upgrade_name": "CollectionSkinDeluxe",
+    "affected_units": [
+      "AllTerranUnits"
+    ],
+    "description": "Cosmetic upgrade for Terran units"
+  },
+  "CollectionSkinDeluxeProtoss": {
+    "upgrade_name": "CollectionSkinDeluxeProtoss",
+    "affected_units": [
+      "AllProtossUnits"
+    ],
+    "description": "Cosmetic upgrade for Protoss units"
+  },
+  "BattlecruiserEnableSpecializations": {
+    "upgrade_name": "BattlecruiserEnableSpecializations",
+    "affected_units": [
+      "Battlecruiser"
+    ],
+    "description": "Enables Battlecruiser special abilities including Tactical Jump and Yamato Cannon"
+  },
+  "BattlecruiserBehemothReactor": {
+    "upgrade_name": "BattlecruiserBehemothReactor",
+    "affected_units": [
+      "Battlecruiser"
+    ],
+    "description": "Increases Battlecruiser energy regeneration rate"
+  },
+  "CarrierLaunchSpeedUpgrade": {
+    "upgrade_name": "CarrierLaunchSpeedUpgrade",
+    "affected_units": [
+      "Carrier"
+    ],
+    "description": "Increases the speed at which Carriers launch Interceptors"
+  },
+  "AnabolicSynthesis": {
+    "upgrade_name": "AnabolicSynthesis",
+    "affected_units": [
+      "Ultralisk"
+    ],
+    "description": "Increases Ultralisk movement speed"
+  },
+  "Confetti": {
+    "upgrade_name": "Confetti",
+    "affected_units": [
+      "AllUnits"
+    ],
+    "description": "Don't know"
+  },
+  "GhostMoebiusReactor": {
+    "upgrade_name": "GhostMoebiusReactor",
+    "affected_units": [
+      "Ghost"
+    ],
+    "description": "Increases Ghost starting energy and maximum energy"
+  },
+  "ObverseIncubation": {
+    "upgrade_name": "ObverseIncubation",
+    "affected_units": [
+      "Overlord"
+    ],
+    "description": "Reduces Overlord production time"
+  },
+  "SnowVisualMP": {
+    "upgrade_name": "SnowVisualMP",
+    "affected_units": [
+      "AllUnits"
+    ],
+    "description": "Cosmetic snow effect upgrade"
+  },
+  "TunnelingClaws": {
+    "upgrade_name": "TunnelingClaws",
+    "affected_units": [
+      "Roach"
+    ],
+    "description": "Allows Roaches and Ravagers to move while burrowed"
+  },
+  "HighTemplarKhaydarinAmulet": {
+    "upgrade_name": "HighTemplarKhaydarinAmulet",
+    "affected_units": [
+      "HighTemplar"
+    ],
+    "description": "Increases High Templar starting energy"
+  },
+  "InfestorEnergyUpgrade": {
+    "upgrade_name": "InfestorEnergyUpgrade",
+    "affected_units": [
+      "Infestor"
+    ],
+    "description": "Increases Infestor starting energy and maximum energy"
+  },
+  "MedivacCaduceusReactor": {
+    "upgrade_name": "MedivacCaduceusReactor",
+    "affected_units": [
+      "Medivac"
+    ],
+    "description": "Increases Medivac starting energy and heal rate"
+  },
+  "RavenCorvidReactor": {
+    "upgrade_name": "RavenCorvidReactor",
+    "affected_units": [
+      "Raven"
+    ],
+    "description": "Increases Raven starting energy and maximum energy"
+  },
+  "ReaperSpeed": {
+    "upgrade_name": "ReaperSpeed",
+    "affected_units": [
+      "Reaper"
+    ],
+    "description": "Increases Reaper movement speed"
+  },
+  "TerranBuildingArmor": {
+    "upgrade_name": "TerranBuildingArmor",
+    "affected_units": [
+      "Bunker",
+      "CommandCenter",
+      "OrbitalCommand",
+      "PlanetaryFortress"
+    ],
+    "description": "Increases armor of all Terran buildings"
+  },
+  "DurableMaterials": {
+    "upgrade_name": "DurableMaterials",
+    "affected_units": [
+      "Bunker",
+      "CommandCenter",
+      "OrbitalCommand",
+      "PlanetaryFortress"
+    ],
+    "description": "Increases health of Terran buildings"
+  },
+  "HunterSeeker": {
+    "upgrade_name": "HunterSeeker",
+    "affected_units": [
+      "Raven"
+    ],
+    "description": "Enables Raven to use Hunter-Seeker Missile ability"
+  },
+  "NeosteelFrame": {
+    "upgrade_name": "NeosteelFrame",
+    "affected_units": [
+      "Bunker",
+      "CommandCenter",
+      "OrbitalCommand",
+      "PlanetaryFortress"
+    ],
+    "description": "Increases building capacity and structure armor"
+  },
+  "PunisherGrenades": {
+    "upgrade_name": "PunisherGrenades",
+    "affected_units": [
+      "Marauder"
+    ],
+    "description": "Increases Marauder attack range"
+  },
+  "ChitinousPlating": {
+    "upgrade_name": "ChitinousPlating",
+    "affected_units": [
+      "Ultralisk"
+    ],
+    "description": "Increases the armor of Ultralisks by +2."
+  },
+  "VikingJotunBoosters": {
+    "upgrade_name": "VikingJotunBoosters",
+    "affected_units": [
+      "Viking"
+    ],
+    "description": "Increases Viking health"
+  },
+  "VoidRaySpeedUpgrade": {
+    "upgrade_name": "VoidRaySpeedUpgrade",
+    "affected_units": [
+      "VoidRay"
+    ],
+    "description": "Increases Void Ray movement speed"
+  },
+  "haltech": {
+    "upgrade_name": "haltech",
+    "affected_units": [
+      "Unknown"
+    ],
+    "description": "Unknown upgrade effect"
+  },
+  "CentrificalHooks": {
+    "upgrade_name": "CentrificalHooks",
+    "affected_units": [
+      "Baneling"
+    ],
+    "description": "Increases Baneling movement speed"
+  },
+  "ExtendedThermalLance": {
+    "upgrade_name": "ExtendedThermalLance",
+    "affected_units": [
+      "Colossus"
+    ],
+    "description": "Increases Colossus attack range"
+  },
+  "HighCapacityBarrels": {
+    "upgrade_name": "HighCapacityBarrels",
+    "affected_units": [
+      "Hellion",
+      "Hellbat"
+    ],
+    "description": "Increases Hellion and Hellbat damage radius"
+  },
+  "HiSecAutoTracking": {
+    "upgrade_name": "HiSecAutoTracking",
+    "affected_units": [
+      "MissileTurret"
+    ],
+    "description": "Increases Missile Turret attack range"
+  },
+  "TerranInfantryWeaponsLevel1": {
+    "upgrade_name": "TerranInfantryWeaponsLevel1",
+    "affected_units": [
+      "Marine",
+      "Marauder",
+      "Ghost",
+      "Reaper",
+      "SCV"
+    ],
+    "description": "Increases attack damage of Terran infantry units by +1"
+  },
+  "TerranInfantryWeaponsLevel2": {
+    "upgrade_name": "TerranInfantryWeaponsLevel2",
+    "affected_units": [
+      "Marine",
+      "Marauder",
+      "Ghost",
+      "Reaper",
+      "SCV"
+    ],
+    "description": "Increases attack damage of Terran infantry units by +1 (requires Level 1)"
+  },
+  "TerranInfantryWeaponsLevel3": {
+    "upgrade_name": "TerranInfantryWeaponsLevel3",
+    "affected_units": [
+      "Marine",
+      "Marauder",
+      "Ghost",
+      "Reaper",
+      "SCV"
+    ],
+    "description": "Increases attack damage of Terran infantry units by +1 (requires Level 2)"
+  },
+  "TerranInfantryArmorsLevel1": {
+    "upgrade_name": "TerranInfantryArmorsLevel1",
+    "affected_units": [
+      "Marine",
+      "Marauder",
+      "Ghost",
+      "Reaper",
+      "SCV"
+    ],
+    "description": "Increases armor of Terran infantry units by +1"
+  },
+  "TerranInfantryArmorsLevel2": {
+    "upgrade_name": "TerranInfantryArmorsLevel2",
+    "affected_units": [
+      "Marine",
+      "Marauder",
+      "Ghost",
+      "Reaper",
+      "SCV"
+    ],
+    "description": "Increases armor of Terran infantry units by +1 (requires Level 1)"
+  },
+  "TerranInfantryArmorsLevel3": {
+    "upgrade_name": "TerranInfantryArmorsLevel3",
+    "affected_units": [
+      "Marine",
+      "Marauder",
+      "Ghost",
+      "Reaper",
+      "SCV"
+    ],
+    "description": "Increases armor of Terran infantry units by +1 (requires Level 2)"
+  },
+  "TerranVehicleWeaponsLevel1": {
+    "upgrade_name": "TerranVehicleWeaponsLevel1",
+    "affected_units": [
+      "Hellion",
+      "Hellbat",
+      "SiegeTank",
+      "Thor",
+      "Cyclone",
+      "WidowMine"
+    ],
+    "description": "Increases attack damage of Terran vehicle units by +1"
+  },
+  "TerranVehicleWeaponsLevel2": {
+    "upgrade_name": "TerranVehicleWeaponsLevel2",
+    "affected_units": [
+      "Hellion",
+      "Hellbat",
+      "SiegeTank",
+      "Thor",
+      "Cyclone",
+      "WidowMine"
+    ],
+    "description": "Increases attack damage of Terran vehicle units by +1 (requires Level 1)"
+  },
+  "TerranVehicleWeaponsLevel3": {
+    "upgrade_name": "TerranVehicleWeaponsLevel3",
+    "affected_units": [
+      "Hellion",
+      "Hellbat",
+      "SiegeTank",
+      "Thor",
+      "Cyclone",
+      "WidowMine"
+    ],
+    "description": "Increases attack damage of Terran vehicle units by +1 (requires Level 2)"
+  },
+  "TerranVehicleArmorsLevel1": {
+    "upgrade_name": "TerranVehicleArmorsLevel1",
+    "affected_units": [
+      "Hellion",
+      "Hellbat",
+      "SiegeTank",
+      "Thor",
+      "Cyclone",
+      "WidowMine"
+    ],
+    "description": "Increases armor of Terran vehicle units by +1"
+  },
+  "TerranVehicleArmorsLevel2": {
+    "upgrade_name": "TerranVehicleArmorsLevel2",
+    "affected_units": [
+      "Hellion",
+      "Hellbat",
+      "SiegeTank",
+      "Thor",
+      "Cyclone",
+      "WidowMine"
+    ],
+    "description": "Increases armor of Terran vehicle units by +1 (requires Level 1)"
+  },
+  "TerranVehicleArmorsLevel3": {
+    "upgrade_name": "TerranVehicleArmorsLevel3",
+    "affected_units": [
+      "Hellion",
+      "Hellbat",
+      "SiegeTank",
+      "Thor",
+      "Cyclone",
+      "WidowMine"
+    ],
+    "description": "Increases armor of Terran vehicle units by +1 (requires Level 2)"
+  },
+  "TerranShipWeaponsLevel1": {
+    "upgrade_name": "TerranShipWeaponsLevel1",
+    "affected_units": [
+      "Viking",
+      "Medivac",
+      "Liberator",
+      "Banshee",
+      "Raven",
+      "Battlecruiser"
+    ],
+    "description": "Increases attack damage of Terran air units by +1"
+  },
+  "TerranShipWeaponsLevel2": {
+    "upgrade_name": "TerranShipWeaponsLevel2",
+    "affected_units": [
+      "Viking",
+      "Medivac",
+      "Liberator",
+      "Banshee",
+      "Raven",
+      "Battlecruiser"
+    ],
+    "description": "Increases attack damage of Terran air units by +1 (requires Level 1)"
+  },
+  "TerranShipWeaponsLevel3": {
+    "upgrade_name": "TerranShipWeaponsLevel3",
+    "affected_units": [
+      "Viking",
+      "Medivac",
+      "Liberator",
+      "Banshee",
+      "Raven",
+      "Battlecruiser"
+    ],
+    "description": "Increases attack damage of Terran air units by +1 (requires Level 2)"
+  },
+  "TerranShipArmorsLevel1": {
+    "upgrade_name": "TerranShipArmorsLevel1",
+    "affected_units": [
+      "Viking",
+      "Medivac",
+      "Liberator",
+      "Banshee",
+      "Raven",
+      "Battlecruiser"
+    ],
+    "description": "Increases armor of Terran air units by +1"
+  },
+  "TerranShipArmorsLevel2": {
+    "upgrade_name": "TerranShipArmorsLevel2",
+    "affected_units": [
+      "Viking",
+      "Medivac",
+      "Liberator",
+      "Banshee",
+      "Raven",
+      "Battlecruiser"
+    ],
+    "description": "Increases armor of Terran air units by +1 (requires Level 1)"
+  },
+  "TerranShipArmorsLevel3": {
+    "upgrade_name": "TerranShipArmorsLevel3",
+    "affected_units": [
+      "Viking",
+      "Medivac",
+      "Liberator",
+      "Banshee",
+      "Raven",
+      "Battlecruiser"
+    ],
+    "description": "Increases armor of Terran air units by +1 (requires Level 2)"
+  },
+  "ProtossGroundArmorsLevel1": {
+    "upgrade_name": "ProtossGroundArmorsLevel1",
+    "affected_units": [
+      "Zealot",
+      "Stalker",
+      "Adept",
+      "HighTemplar",
+      "DarkTemplar",
+      "Archon",
+      "Immortal",
+      "Colossus",
+      "Disruptor",
+      "Probe"
+    ],
+    "description": "Increases armor of Protoss ground units by +1"
+  },
+  "ProtossGroundArmorsLevel2": {
+    "upgrade_name": "ProtossGroundArmorsLevel2",
+    "affected_units": [
+      "Zealot",
+      "Stalker",
+      "Adept",
+      "HighTemplar",
+      "DarkTemplar",
+      "Archon",
+      "Immortal",
+      "Colossus",
+      "Disruptor",
+      "Probe"
+    ],
+    "description": "Increases armor of Protoss ground units by +1 (requires Level 1)"
+  },
+  "ProtossGroundArmorsLevel3": {
+    "upgrade_name": "ProtossGroundArmorsLevel3",
+    "affected_units": [
+      "Zealot",
+      "Stalker",
+      "Adept",
+      "HighTemplar",
+      "DarkTemplar",
+      "Archon",
+      "Immortal",
+      "Colossus",
+      "Disruptor",
+      "Probe"
+    ],
+    "description": "Increases armor of Protoss ground units by +1 (requires Level 2)"
+  },
+  "ProtossGroundWeaponsLevel1": {
+    "upgrade_name": "ProtossGroundWeaponsLevel1",
+    "affected_units": [
+      "Zealot",
+      "Stalker",
+      "Adept",
+      "HighTemplar",
+      "DarkTemplar",
+      "Archon",
+      "Immortal",
+      "Colossus",
+      "Disruptor",
+      "Probe"
+    ],
+    "description": "Increases attack damage of Protoss ground units by +1"
+  },
+  "ProtossGroundWeaponsLevel2": {
+    "upgrade_name": "ProtossGroundWeaponsLevel2",
+    "affected_units": [
+      "Zealot",
+      "Stalker",
+      "Adept",
+      "HighTemplar",
+      "DarkTemplar",
+      "Archon",
+      "Immortal",
+      "Colossus",
+      "Disruptor",
+      "Probe"
+    ],
+    "description": "Increases attack damage of Protoss ground units by +1 (requires Level 1)"
+  },
+  "ProtossGroundWeaponsLevel3": {
+    "upgrade_name": "ProtossGroundWeaponsLevel3",
+    "affected_units": [
+      "Zealot",
+      "Stalker",
+      "Adept",
+      "HighTemplar",
+      "DarkTemplar",
+      "Archon",
+      "Immortal",
+      "Colossus",
+      "Disruptor",
+      "Probe"
+    ],
+    "description": "Increases attack damage of Protoss ground units by +1 (requires Level 2)"
+  },
+  "ProtossShieldsLevel1": {
+    "upgrade_name": "ProtossShieldsLevel1",
+    "affected_units": [
+      "Zealot",
+      "Stalker",
+      "Adept",
+      "HighTemplar",
+      "DarkTemplar",
+      "Archon",
+      "Immortal",
+      "Colossus",
+      "Disruptor",
+      "Phoenix",
+      "Voidray",
+      "Oracle",
+      "Tempest",
+      "Carrier",
+      "Mothership",
+      "Probe",
+      "Observer",
+      "WarpPrism"
+    ],
+    "description": "Increases shield armor of all Protoss units by +1"
+  },
+  "ProtossShieldsLevel2": {
+    "upgrade_name": "ProtossShieldsLevel2",
+    "affected_units": [
+      "Zealot",
+      "Stalker",
+      "Adept",
+      "HighTemplar",
+      "DarkTemplar",
+      "Archon",
+      "Immortal",
+      "Colossus",
+      "Disruptor",
+      "Phoenix",
+      "Voidray",
+      "Oracle",
+      "Tempest",
+      "Carrier",
+      "Mothership",
+      "Probe",
+      "Observer",
+      "WarpPrism"
+    ],
+    "description": "Increases shield armor of all Protoss units by +1 (requires Level 1)"
+  },
+  "ProtossShieldsLevel3": {
+    "upgrade_name": "ProtossShieldsLevel3",
+    "affected_units": [
+      "Zealot",
+      "Stalker",
+      "Adept",
+      "HighTemplar",
+      "DarkTemplar",
+      "Archon",
+      "Immortal",
+      "Colossus",
+      "Disruptor",
+      "Phoenix",
+      "Voidray",
+      "Oracle",
+      "Tempest",
+      "Carrier",
+      "Mothership",
+      "Probe",
+      "Observer",
+      "WarpPrism"
+    ],
+    "description": "Increases shield armor of all Protoss units by +1 (requires Level 2)"
+  },
+  "ProtossAirArmorsLevel1": {
+    "upgrade_name": "ProtossAirArmorsLevel1",
+    "affected_units": [
+      "Phoenix",
+      "Voidray",
+      "Oracle",
+      "Tempest",
+      "Carrier",
+      "Mothership",
+      "Observer",
+      "WarpPrism"
+    ],
+    "description": "Increases armor of Protoss air units by +1"
+  },
+  "ProtossAirArmorsLevel2": {
+    "upgrade_name": "ProtossAirArmorsLevel2",
+    "affected_units": [
+      "Phoenix",
+      "Voidray",
+      "Oracle",
+      "Tempest",
+      "Carrier",
+      "Mothership",
+      "Observer",
+      "WarpPrism"
+    ],
+    "description": "Increases armor of Protoss air units by +1 (requires Level 1)"
+  },
+  "ProtossAirArmorsLevel3": {
+    "upgrade_name": "ProtossAirArmorsLevel3",
+    "affected_units": [
+      "Phoenix",
+      "Voidray",
+      "Oracle",
+      "Tempest",
+      "Carrier",
+      "Mothership",
+      "Observer",
+      "WarpPrism"
+    ],
+    "description": "Increases armor of Protoss air units by +1 (requires Level 2)"
+  },
+  "ProtossAirWeaponsLevel1": {
+    "upgrade_name": "ProtossAirWeaponsLevel1",
+    "affected_units": [
+      "Phoenix",
+      "Voidray",
+      "Oracle",
+      "Tempest",
+      "Carrier",
+      "Mothership"
+    ],
+    "description": "Increases attack damage of Protoss air units by +1"
+  },
+  "ProtossAirWeaponsLevel2": {
+    "upgrade_name": "ProtossAirWeaponsLevel2",
+    "affected_units": [
+      "Phoenix",
+      "Voidray",
+      "Oracle",
+      "Tempest",
+      "Carrier",
+      "Mothership"
+    ],
+    "description": "Increases attack damage of Protoss air units by +1 (requires Level 1)"
+  },
+  "ProtossAirWeaponsLevel3": {
+    "upgrade_name": "ProtossAirWeaponsLevel3",
+    "affected_units": [
+      "Phoenix",
+      "Voidray",
+      "Oracle",
+      "Tempest",
+      "Carrier",
+      "Mothership"
+    ],
+    "description": "Increases attack damage of Protoss air units by +1 (requires Level 2)"
+  },
+  "ZergGroundArmorsLevel1": {
+    "upgrade_name": "ZergGroundArmorsLevel1",
+    "affected_units": [
+      "Zergling",
+      "Baneling",
+      "Roach",
+      "Ravager",
+      "Hydralisk",
+      "Lurker",
+      "Infestor",
+      "Swarmhost",
+      "Ultralisk",
+      "Drone",
+      "Queen"
+    ],
+    "description": "Increases armor of Zerg ground units by +1"
+  },
+  "ZergGroundArmorsLevel2": {
+    "upgrade_name": "ZergGroundArmorsLevel2",
+    "affected_units": [
+      "Zergling",
+      "Baneling",
+      "Roach",
+      "Ravager",
+      "Hydralisk",
+      "Lurker",
+      "Infestor",
+      "Swarmhost",
+      "Ultralisk",
+      "Drone",
+      "Queen"
+    ],
+    "description": "Increases armor of Zerg ground units by +1 (requires Level 1)"
+  },
+  "ZergGroundArmorsLevel3": {
+    "upgrade_name": "ZergGroundArmorsLevel3",
+    "affected_units": [
+      "Zergling",
+      "Baneling",
+      "Roach",
+      "Ravager",
+      "Hydralisk",
+      "Lurker",
+      "Infestor",
+      "Swarmhost",
+      "Ultralisk",
+      "Drone",
+      "Queen"
+    ],
+    "description": "Increases armor of Zerg ground units by +1 (requires Level 2)"
+  },
+  "ZergFlyerArmorsLevel1": {
+    "upgrade_name": "ZergFlyerArmorsLevel1",
+    "affected_units": [
+      "Mutalisk",
+      "Corruptor",
+      "Broodlord",
+      "Viper",
+      "Overlord",
+      "Overseer"
+    ],
+    "description": "Increases armor of Zerg air units by +1"
+  },
+  "ZergFlyerArmorsLevel2": {
+    "upgrade_name": "ZergFlyerArmorsLevel2",
+    "affected_units": [
+      "Mutalisk",
+      "Corruptor",
+      "Broodlord",
+      "Viper",
+      "Overlord",
+      "Overseer"
+    ],
+    "description": "Increases armor of Zerg air units by +1 (requires Level 1)"
+  },
+  "ZergFlyerArmorsLevel3": {
+    "upgrade_name": "ZergFlyerArmorsLevel3",
+    "affected_units": [
+      "Mutalisk",
+      "Corruptor",
+      "Broodlord",
+      "Viper",
+      "Overlord",
+      "Overseer"
+    ],
+    "description": "Increases armor of Zerg air units by +1 (requires Level 2)"
+  },
+  "ZergFlyerWeaponsLevel1": {
+    "upgrade_name": "ZergFlyerWeaponsLevel1",
+    "affected_units": [
+      "Mutalisk",
+      "Corruptor",
+      "Broodlord",
+      "Viper"
+    ],
+    "description": "Increases attack damage of Zerg air units by +1"
+  },
+  "ZergFlyerWeaponsLevel2": {
+    "upgrade_name": "ZergFlyerWeaponsLevel2",
+    "affected_units": [
+      "Mutalisk",
+      "Corruptor",
+      "Broodlord",
+      "Viper"
+    ],
+    "description": "Increases attack damage of Zerg air units by +1 (requires Level 1)"
+  },
+  "ZergFlyerWeaponsLevel3": {
+    "upgrade_name": "ZergFlyerWeaponsLevel3",
+    "affected_units": [
+      "Mutalisk",
+      "Corruptor",
+      "Broodlord",
+      "Viper"
+    ],
+    "description": "Increases attack damage of Zerg air units by +1 (requires Level 2)"
+  },
+  "ZergMeleeWeaponsLevel1": {
+    "upgrade_name": "ZergMeleeWeaponsLevel1",
+    "affected_units": [
+      "Zergling",
+      "Baneling",
+      "Ultralisk",
+      "Drone"
+    ],
+    "description": "Increases attack damage of Zerg melee units by +1"
+  },
+  "ZergMeleeWeaponsLevel2": {
+    "upgrade_name": "ZergMeleeWeaponsLevel2",
+    "affected_units": [
+      "Zergling",
+      "Baneling",
+      "Ultralisk",
+      "Drone"
+    ],
+    "description": "Increases attack damage of Zerg melee units by +1 (requires Level 1)"
+  },
+  "ZergMeleeWeaponsLevel3": {
+    "upgrade_name": "ZergMeleeWeaponsLevel3",
+    "affected_units": [
+      "Zergling",
+      "Baneling",
+      "Ultralisk",
+      "Drone"
+    ],
+    "description": "Increases attack damage of Zerg melee units by +1 (requires Level 2)"
+  },
+  "ZergMissileWeaponsLevel1": {
+    "upgrade_name": "ZergMissileWeaponsLevel1",
+    "affected_units": [
+      "Hydralisk",
+      "Lurker",
+      "Roach",
+      "Ravager",
+      "Queen"
+    ],
+    "description": "Increases attack damage of Zerg ranged units by +1"
+  },
+  "ZergMissileWeaponsLevel2": {
+    "upgrade_name": "ZergMissileWeaponsLevel2",
+    "affected_units": [
+      "Hydralisk",
+      "Lurker",
+      "Roach",
+      "Ravager",
+      "Queen"
+    ],
+    "description": "Increases attack damage of Zerg ranged units by +1 (requires Level 1)"
+  },
+  "ZergMissileWeaponsLevel3": {
+    "upgrade_name": "ZergMissileWeaponsLevel3",
+    "affected_units": [
+      "Hydralisk",
+      "Lurker",
+      "Roach",
+      "Ravager",
+      "Queen"
+    ],
+    "description": "Increases attack damage of Zerg ranged units by +1 (requires Level 2)"
+  },
+  "OrganicCarapace": {
+    "upgrade_name": "OrganicCarapace",
+    "affected_units": [
+      "Roach"
+    ],
+    "description": "Greatly increases Roach regeneration by +10 hit points per second."
+  },
+  "Stimpack": {
+    "upgrade_name": "Stimpack",
+    "affected_units": [
+      "Marine",
+      "Marauder"
+    ],
+    "description": "Allows Marines and Marauders to use the Stimpack ability"
+  },
+  "PersonalCloaking": {
+    "upgrade_name": "PersonalCloaking",
+    "affected_units": [
+      "Ghost"
+    ],
+    "description": "Allows Ghosts to use the Personal Cloaking ability"
+  },
+  "SiegeTech": {
+    "upgrade_name": "SiegeTech",
+    "affected_units": [
+      "SiegeTank"
+    ],
+    "description": "Allows Siege Tanks to transform between Tank Mode and Siege Mode"
+  },
+  "BansheeCloak": {
+    "upgrade_name": "BansheeCloak",
+    "affected_units": [
+      "Banshee"
+    ],
+    "description": "Allows Banshees to use the Cloak ability"
+  },
+  "ObserverGraviticBooster": {
+    "upgrade_name": "ObserverGraviticBooster",
+    "affected_units": [
+      "Observer"
+    ],
+    "description": "Increases Observer movement speed"
+  },
+  "PsiStormTech": {
+    "upgrade_name": "PsiStormTech",
+    "affected_units": [
+      "HighTemplar"
+    ],
+    "description": "Allows High Templars to use the Psionic Storm ability"
+  },
+  "GraviticDrive": {
+    "upgrade_name": "GraviticDrive",
+    "affected_units": [
+      "WarpPrism"
+    ],
+    "description": "Increases Warp Prism movement speed"
+  },
+  "Charge": {
+    "upgrade_name": "Charge",
+    "affected_units": [
+      "Zealot"
+    ],
+    "description": "Allows Zealots to use the Charge ability and increases base movement speed"
+  },
+  "zerglingattackspeed": {
+    "upgrade_name": "zerglingattackspeed",
+    "affected_units": [
+      "Zergling"
+    ],
+    "description": "Increases Zergling attack speed (Adrenal Glands)"
+  },
+  "zerglingmovementspeed": {
+    "upgrade_name": "zerglingmovementspeed",
+    "affected_units": [
+      "Zergling"
+    ],
+    "description": "Increases Zergling movement speed (Metabolic Boost)"
+  },
+  "hydraliskspeed": {
+    "upgrade_name": "hydraliskspeed",
+    "affected_units": [
+      "Hydralisk"
+    ],
+    "description": "Increases Hydralisk movement speed (Muscular Augments)"
+  },
+  "Burrow": {
+    "upgrade_name": "Burrow",
+    "affected_units": [
+      "Zergling",
+      "Baneling",
+      "Roach",
+      "Ravager",
+      "Hydralisk",
+      "Lurker",
+      "Infestor",
+      "Swarmhost",
+      "Ultralisk",
+      "Drone",
+      "Queen"
+    ],
+    "description": "Allows Zerg ground units to burrow underground"
+  },
+  "overlordtransport": {
+    "upgrade_name": "overlordtransport",
+    "affected_units": [
+      "Overlord"
+    ],
+    "description": "Allows Overlords to transport units"
+  },
+  "overlordspeed": {
+    "upgrade_name": "overlordspeed",
+    "affected_units": [
+      "Overlord"
+    ],
+    "description": "Increases Overlord movement speed (Pneumatized Carapace)"
+  },
+  "InfestorPeristalsis": {
+    "upgrade_name": "InfestorPeristalsis",
+    "affected_units": [
+      "Infestor"
+    ],
+    "description": "Increases Infestor movement speed while burrowed"
+  },
+  "BlinkTech": {
+    "upgrade_name": "BlinkTech",
+    "affected_units": [
+      "Stalker"
+    ],
+    "description": "Allows Stalkers to use the Blink ability"
+  },
+  "GlialReconstitution": {
+    "upgrade_name": "GlialReconstitution",
+    "affected_units": [
+      "Roach",
+      "Ravager"
+    ],
+    "description": "Increases Roach and Ravager health regeneration rate"
+  },
+  "AbdominalFortitude": {
+    "upgrade_name": "AbdominalFortitude",
+    "affected_units": [
+      "Roach",
+      "Ravager"
+    ],
+    "description": "Increases Roach and Ravager health"
+  },
+  "ShieldWall": {
+    "upgrade_name": "ShieldWall",
+    "affected_units": [
+      "Marine"
+    ],
+    "description": "Allows Marines to use defensive stance reducing incoming damage"
+  },
+  "WarpGateResearch": {
+    "upgrade_name": "WarpGateResearch",
+    "affected_units": [
+      "Gateway"
+    ],
+    "description": "Allows Gateways to transform into Warp Gates for faster unit production"
+  }
+}

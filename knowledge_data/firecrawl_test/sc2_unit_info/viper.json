@@ -1,0 +1,50 @@
+{
+    "Type": "Air Unit",
+    "Description": "The Viper is a Zerg flying support caster that requires a Hive. The Viper does not attack. Instead, it uses its spells to disrupt the positioning of enemy units. The Viper is particularly effective against entrenched positions and clustered armies. It can also separate high value targets such as Thors and Colossi from a group so they can be surrounded and killed more easily.",
+    "Built From": "Not Found",
+    "Requirements": "Hive",
+    "Cost": {
+        "mineral": 100,
+        "vespene": 200,
+        "game_time": 29,
+        "supply": 3
+    },
+    "Hotkey": "E",
+    "Attack": "Not Attack Found",
+    "Unit stats": {
+        "Defense": "200  0 (+1)",
+        "Attributes": "Armored, Biological, Psionic",
+        "Sight": "11",
+        "Speed": "4.13",
+        "Cargo size": "Not Found"
+    },
+    "Strong against": [
+        "SiegeTank",
+        "Colossus",
+        "Hydralisk"
+    ],
+    "Weak against": [
+        "Stalker",
+        "Viking",
+        "Mutalisk"
+    ],
+    "Ability": [
+        {
+            "Name": "Consume",
+            "Hotkey": "C",
+            "Description": "Targets friendly structure and consumes 150 life over 14 seconds converting the damage dealt into 50 energy. Excluded targets: Creep Tumor."
+        },
+        {
+            "Name": "Cancel Oversight",
+            "Hotkey": "R",
+            "Description": "Restores the Overseer's ability to move and returns its vision to its normal radius."
+        }
+    ],
+    "Upgrade": "Not Upgrade Found",
+    "Competitive Usage": {
+        "General": "Not Found",
+        "Vs. Protoss": "Vipers see use in the late-game stage of Zerg vs. Protoss. Their Abduct ability separates expensive units like Carriers, Motherships, and Tempests from the compact Protoss army and brings them into range of units such as Corruptors and Hydralisks. Their Blinding Cloud ability can also be useful against large groups of Stalkers, forcing them to move or Blink out of the cloud in order to attack.With the addition of the Heroic tag on the Mothership and Neural being unable to affect it anymore, Infestors became ineffective at countering Motherships, forcing Vipers to become a mandatory component of killing these expensive vessels.",
+        "Vs. Terran": "Vipers can be of great use against a Terran employing either a mechanical or a Marine-Tank army composition. Blinding Cloud is especially useful against Siege Tanks, as the tanks must un-siege in order to move out of the cloud, effectively removing them from the battle. Blinding Cloud can also be used against clumps of Marines and Marauders, zoning them out of choke points and making them easier to hit with Banelings and Fungal Growth. The Viper's Abduct ability is used to pull expensive units like Thors and Siege Tanks away from the Terran's main army, making them easier targets for the shorter-ranged Zerg army.Against bio play, Vipers are also a good support unit for a Roach-Hydra mid game army. Casting Blinding Clouds on the Terran bio ball will prevent the Marine-Marauder force from firing at the Roach-Hydra force. This forces the Terran to retreat. If the Terran does not micro, the AI will instruct the bio ball to move closer to their target, which makes retreat even harder for a Terran player not paying attention.Note that Blinding Cloud also affects your own units, and the Terran player can lure the Roach-Hydra force into a trap by feinting a retreat and pulling the Zerg forces into the Blinding Cloud.As with Brood Lords, it is important to supplement Vipers with additional anti-air, as they are helpless against Terran's long-range Vikings (their Parasitic Bomb ability, though powerful, is rarely fast enough to save them from a Viking attack).",
+        "Vs. Zerg": "Vipers see less use in Zerg vs. Zerg than in the other two match-ups, but still play a key role. If one player commits to massing Mutalisks, the defending player is advised to tech to hive to acquire a few (3-5) Vipers for their powerful Parasitic Bomb ability. This will destroy the clump of Mutalisks and the ground army will be free to advance. As such, players teching to Mutalisks should only make a handful of Mutalisks (26 or so) to gain map control and tech-switch into a Roach/Hydra style, tech up into Ultralisks, or possibly Brood Lords.The Viper is a powerful option in the lategame as they help the player deal with Lurker lines with Abduct and/or Blinding Clouds, and groups of Mutalisks/Corruptors with Blinding Cloud. They are useless against Ultralisks, however (Frenzied prevents Abduction). Blinding cloud can be a powerful spell against regular Roach/Hydra balls if paired with Infestor's Fungal Growth ability to prevent an entire clump of enemy units from attacking."
+    }
+}

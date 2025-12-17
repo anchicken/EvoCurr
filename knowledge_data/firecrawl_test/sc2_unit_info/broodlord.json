@@ -1,0 +1,47 @@
+{
+    "Type": "Air Unit",
+    "Description": "The Brood Lord is a flying heavy-assault Zerg air-to-ground unit that spawns Broodlings when it attacks. The Brood Lord can be morphed from a Corruptor once the Zerg player has made a Greater Spire.The Brood Lord is followed by a number of flying Broodlings on its model. This may seem trivial, but it's important: If the Brood Lord has two Broodlings flying alongside it (the maximum), it will shoot both Broodlings on its attack, each dealing the Brood Lord's attack damage on impact. If it only has one Broodling by its side, it will only shoot that one. The recharge time for a Broodling is equal to the attack speed of the Brood Lord, so if ordered to continuously attack, the Brood Lord will be firing one Broodling at a time.Broodlings are temporary units which will die 5.71 seconds after landing, regardless of their health. As a result a single Brood Lord attacking continuously will sustain just over 3 Broodlings on the ground. If the Broodlings are not killed before expiring, their attacks will provide significantly more DPS (26 without upgrades) than the attacks of their original Brood Lord (11 without upgrades). With good micro, a group of Brood Lords can send their Broodlings forward for only the cost of 1 Broodling per volley and the initial target, effectively extending their range even further, albeit for significantly less damage.Brood Lords have the unusual property of benefiting from both ground and air upgrades as their Broodlings are ground units and benefit from Ground Carapace and Melee Attacks. The latter is particularly important due to the very high attack speed and low base damage of Broodlings.",
+    "Built From": "Not Found",
+    "Requirements": "Greater Spire",
+    "Cost": {
+        "mineral": 150,
+        "vespene": 150,
+        "game_time": 24,
+        "supply": 2
+    },
+    "Hotkey": "B",
+    "Attack": {
+        "Targets": "Ground",
+        "Damage": "20 (+2) (x2)",
+        "DPS": "22.4 (+2.2)",
+        "Cooldown": "1.79",
+        "Bonus": "Not Found",
+        "Bonus DPS": "Not Found",
+        "Range": "10"
+    },
+    "Unit stats": {
+        "Defense": "250 1 (+1)",
+        "Attributes": "Armored, Biological, Massive",
+        "Sight": "12",
+        "Speed": "2.62",
+        "Cargo size": "Not Found"
+    },
+    "Strong against": [
+        "Stalker",
+        "Marine",
+        "Hydralisk"
+    ],
+    "Weak against": [
+        "Corruptor",
+        "Viking",
+        "VoidRay"
+    ],
+    "Ability": "Swarm Seeds.",
+    "Upgrade": "Not Upgrade Found.",
+    "Competitive Usage": {
+        "General": "Brood Lords have siege range and the Broodlings they spawn are extremely useful at blocking off ground units and causing friendly fire, making them extremely powerful for attacking ground units and keeping them at range. This and the fact that they do not have the damage output or endurance to hold in a straight up fight means they are best handled as siege units in order to score free hits from a distance. Place them away from open space, favoring cliffs and obstructing terrain to keep ground units out of range. Do not use Brood Lords without AA support, as a protracted siege offers opponents plenty of time to respond.",
+        "Vs. Protoss": "Brood Lords are an effective siege unit against Protoss. Protoss typically must deal with Brood Lords with Stalkers (with Blink) and/or Void Rays. However, Zerg may protect their Brood Lords from these units with sufficient support. With sufficient ground support, Stalkers are prevented from moving forward (blinking, typically) to take Brood Lords out. Similarly, Zerg may protect Brood Lords from Void Rays with Hydralisks or Corruptors.The splash damage of Colossi and Archons can quickly destroy large numbers of Broodlings, reducing the threat of Brood Lords. High Templar with Psionic Storm can also be effective against a Zerg army with Brood Lords, especially if the Brood Lords are clumped together or if the Zerg ground army is positioned beneath the Brood Lords. If a Protoss is able to produce Tempests, they will hard counter the Brood Lords with their range and bonus damage to massive air units.",
+        "Vs. Terran": "In LotV, the use of Brood Lords in this matchup has declined due to the strength of Thors with their increased 11-range High Impact, letting them fight back against Brood Lords with a range of 10. Even so, with Zerg micro of the Brood Lord, Terran can have a tough time dealing with the unit. Against non-mech compositions such as bio, upgraded and stimmed Marines can still pose a threat to them but this is manageable with ground support (such as Zerglings, Banelings, or in rare cases Ultralisks). This may influence the Terran to switch their production towards Vikings, which might create openings for the Zerg player to also swap composition.",
+        "Vs. Zerg": "Brood Lords are rarely used in ZvZ. Many matches will not last long enough for players to even tech to them, as many matches in this matchup do not see late game. When ZvZ late game does happen, the most viable composition is Hydralisk/Lurker/Viper as opposed to featuring Brood Lords for a number of reasons. Many inexperienced players may be tempted into using Brood Lords for their potency in other matchups, but because Zerg units are so mobile and can easily make potent counter attacks with speed-upgraded Zerglings or burrow-move Roaches, the immobile Brood Lords will offer very limited defense aside from their single position; attacking forces can easily retreat before the Brood Lords reach them. Lurkers, on the other hand may be comfortably left behind one or two per base for a strong counter attack defense that takes up less supply, costs less, offers splash damage, is protected from attack without detection, and once range-upgraded, has the same range as a Brood Lord. In more reactive situations, Lurkers also benefit from speed bonuses on Creep and can have their speed upgraded as well. Finally, against Brood Lords themselves, Lurkers shred Broodlings near instantly, providing support for Hydra-focused ground armies to assault the Brood Lords themselves. Brood Lords trying to siege a Hydra/Lurker/Viper army can be easily Abducted into Hydralisk range and quickly dispatched while they slowly try to retreat.Because Brood Lords are morphed from Corruptors and because they are vulnerable to air-to-air attacks, Brood Lords will often be fielded with a handful of Corruptors in tow. This commitment to air units severely impacts the player making Brood Lords' ability to contest ground armies running over them or outflanking them. The Hydra Viper player should lose very little unless they are sieged up too close to the Brood Lords without overwhelming numbers, as Vipers can pick them apart over time and use Parasitic Bomb on their air army without incurring too much danger from Corruptors."
+    }
+}
