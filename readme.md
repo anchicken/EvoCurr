@@ -263,32 +263,6 @@ winning_rate = 0.7       # Target win rate for success
 
 ## Step 5. Configurations
 
-### Map Configuration
-
-Edit `configs/map_config.py`:
-
-```python
-class MapConfig:
-    maps = {
-        'test1': {
-            'map_info': 'A 32x32 square map with mixed terrain. Suitable for micro-intensive battles.',
-            'units_info': [
-                'Marine', 'Marauder', 'Medivac', 'SiegeTank',
-                'Zealot', 'Stalker', 'HighTemplar', 'Carrier'
-            ],
-            'player1_start': (5, 25),
-            'player2_start': (25, 5),
-            'terrain_type': 'mixed'
-        },
-        'test2': {
-            'map_info': 'A 64x64 large map with strategic positions.',
-            'units_info': [...],
-            'player1_start': (10, 50),
-            'player2_start': (50, 10)
-        }
-    }
-```
-
 ### LLM API Configuration
 
 Update `configs/llm_api_config.py`:
